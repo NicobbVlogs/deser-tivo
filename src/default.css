@@ -1,0 +1,17 @@
+:root {
+    color-scheme: light dark;
+    font-family: "IBM Plex Sans Variable", serif;
+
+    margin: 3px 20px;
+}
+
+h1 {
+    font-family: "Sekuya", serif;
+    letter-spacing: 3px;
+}
+
+body {
+    max-width: 800px;
+    margin: 20vh auto 0 auto;
+    min-height: 100vh;
+}
