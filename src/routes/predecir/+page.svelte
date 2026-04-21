@@ -18,74 +18,86 @@
 
     <h2>Características del estudiante</h2>
     <form>
-        <label for="selección-socioeconómica">PBM socioeconómico</label>
-        <input
-            type="number"
-            id="selección-calificación"
-            name="calificación"
-            min="0"
-            max="100"
-            bind:value={socioeconómica}
-        />
+        <div class="question">
+            <label for="selección-socioeconómica">PBM socioeconómico</label>
+            <input
+                type="number"
+                id="selección-socioeconómica"
+                name="socioeconómica"
+                min="0"
+                max="100"
+                bind:value={socioeconómica}
+            />
+        </div>
 
-        <label for="selección-papa">PAPA acumulado</label>
-        <input
-            type="number"
-            id="selección-papa"
-            name="papa"
-            min="0"
-            max="5"
-            step="0.1"
-            bind:value={papa}
-        />
+        <div class="question">
+            <label for="selección-papa">PAPA acumulado</label>
+            <input
+                type="number"
+                id="selección-papa"
+                name="papa"
+                min="0"
+                max="5"
+                step="0.1"
+                bind:value={papa}
+            />
+        </div>
 
-        <label for="selección-avance"
-            >Avance en la carrera, como porcentaje</label
-        >
-        <input
-            type="number"
-            id="selección-avance"
-            name="avance"
-            min="0"
-            max="100"
-            bind:value={avance}
-        />
+        <div class="question">
+            <label for="selección-avance"
+                >Avance en la carrera, como porcentaje</label
+            >
+            <input
+                type="number"
+                id="selección-avance"
+                name="avance"
+                min="0"
+                max="100"
+                bind:value={avance}
+            />
+        </div>
 
-        <label for="selección-apoyo-alimentario"
-            >¿Recibe apoyo alimentario?</label
-        >
-        <select
-            id="selección-apoyo-alimentario"
-            name="apoyo-alimentario"
-            bind:value={apoyoAlimentario}
-        >
-            <option value="0">No</option>
-            <option value="1">Sí</option>
-        </select>
+        <div class="question">
+            <label for="selección-apoyo-alimentario"
+                >¿Recibe apoyo alimentario?</label
+            >
+            <select
+                id="selección-apoyo-alimentario"
+                name="apoyo-alimentario"
+                bind:value={apoyoAlimentario}
+            >
+                <option value="0">No</option>
+                <option value="1">Sí</option>
+            </select>
+        </div>
 
-        <label for="selección-admisión-especial"
-            >¿Recibió admisión especial?</label
-        >
-        <select
-            id="selección-admisión-especial"
-            name="admisión-especial"
-            bind:value={admisiónEspecial}
-        >
-            <option value="0">No</option>
-            <option value="1">Sí</option>
-        </select>
+        <div class="question">
+            <label for="selección-admisión-especial"
+                >¿Recibió admisión especial?</label
+            >
+            <select
+                id="selección-admisión-especial"
+                name="admisión-especial"
+                bind:value={admisiónEspecial}
+            >
+                <option value="0">No</option>
+                <option value="1">Sí</option>
+            </select>
+        </div>
 
-        <label for="selección-sanción-académica"
-            >¿Recibió una sanción académica?</label
-        >
-        <select
-            id="selección-sanción-académica"
-            name="sanción-académica"
-            bind:value={sanciónAcadémica}
-        >
-            <option value="0">No</option>
-            <option value="1">Sí</option>
-        </select>
+        <div class="question">
+            <label for="selección-sanción-académica"
+                >¿Recibió una sanción académica?</label
+            >
+            <select
+                id="selección-sanción-académica"
+                name="sanción-académica"
+                bind:value={sanciónAcadémica}
+            >
+                <option value="0">No</option>
+                <option value="1">Sí</option>
+            </select>
+        </div>
     </form>
 
     <h2>Resultados</h2>
@@ -105,16 +117,11 @@
 </div>
 
 <style>
-    label,
     select,
     input {
         display: flex;
-    }
-
-    select,
-    input {
         appearance: base-select;
-        margin-bottom: 1rem;
+        min-width: 3.5rem;
     }
 
     label {
@@ -124,5 +131,21 @@
     #container {
         max-width: 500px;
         margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    .question {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0.4rem 0;
     }
 </style>
