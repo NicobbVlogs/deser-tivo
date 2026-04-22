@@ -123,6 +123,7 @@
 <style>
     #container {
         max-width: 520px;
+        width: 100%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
@@ -164,6 +165,12 @@
         min-width: 11rem;
         max-width: 11rem;
         font-size: 0.92rem;
+        color: #fff;
+    }
+
+    select option {
+        background: Canvas;
+        color: CanvasText;
     }
 
     .pendiente {
