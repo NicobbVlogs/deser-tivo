@@ -162,6 +162,7 @@
         margin: auto;
         margin-top: 1rem;
         border-radius: 1rem;
+        max-width: 80%;
     }
 
     .nivel {
