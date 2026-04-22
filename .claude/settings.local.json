@@ -11,7 +11,11 @@
       "Bash(.venv/Scripts/python explorar_bootstrap.py data/best_candidate.json)",
       "Bash(.venv/Scripts/python -c ' *)",
       "Bash(.venv/Scripts/python extraer_datos.py)",
-      "Bash(git config *)"
+      "Bash(git config *)",
+      "Bash(.venv/Scripts/python generar_modelo.py)",
+      "Bash(bunx svelte-check *)",
+      "Bash(bun run *)",
+      "Bash(curl -s http://localhost:5173/predecir)"
     ]
   }
 }
