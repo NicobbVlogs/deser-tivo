@@ -105,10 +105,20 @@
 </div>
 
 <style>
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: min(100%, 450px);
+        margin: 0 auto 1rem auto;
+        gap: 0.5rem;
+    }
+
     label,
     select,
     input {
-        display: flex;
+        display: block;
+        width: 100%;
     }
 
     select,

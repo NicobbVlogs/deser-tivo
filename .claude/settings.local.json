@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv --version)",
+      "Bash(python --version)",
+      "Bash(py --version)",
+      "Bash(uv venv *)",
+      "Bash(uv pip *)",
+      "Bash(.venv/Scripts/playwright install *)",
+      "Bash(.venv/Scripts/python tableau_scraper.py)",
+      "Bash(.venv/Scripts/python explorar_bootstrap.py data/best_candidate.json)",
+      "Bash(.venv/Scripts/python -c ' *)",
+      "Bash(.venv/Scripts/python extraer_datos.py)"
+    ]
+  }
+}

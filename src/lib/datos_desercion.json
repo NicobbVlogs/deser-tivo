@@ -1,0 +1,6458 @@
+{
+  "kpi_total": [
+    {
+      "_zone": "3",
+      "SUMA(0)": 0,
+      "AGR(periodo_elegido)": "de 2015 a 2025"
+    }
+  ],
+  "zona_14": [
+    {
+      "_zone": "14",
+      "AGR(periodo_elegido)": "en 2025"
+    }
+  ],
+  "kpi_matriculados": [
+    {
+      "_zone": "22",
+      "SUMA(0)": 0
+    }
+  ],
+  "kpi_tasa_desercion": [
+    {
+      "_zone": "23",
+      "AGR(Tasa deserción)": 0.05074506645187274
+    }
+  ],
+  "kpi_desertores": [
+    {
+      "_zone": "24",
+      "SUMA(Desertores)": 1638
+    }
+  ],
+  "kpi_tasa_desvinculacion": [
+    {
+      "_zone": "25",
+      "AGR(Tasa desvinculación)": 0.09510878246701383
+    }
+  ],
+  "kpi_desvinculados": [
+    {
+      "_zone": "27",
+      "SUMA(Desvinculados)": 2977
+    }
+  ],
+  "serie_temporal_absolutos": [
+    {
+      "_zone": "29",
+      "PERIODO": "2025-2",
+      "SUMA(Desertores)": 1638,
+      "AGR(Matriculados)": 31301,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1638
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2025-1",
+      "SUMA(Desertores)": 1521,
+      "AGR(Matriculados)": 31417,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1521
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2024-2",
+      "SUMA(Desertores)": 1658,
+      "AGR(Matriculados)": 31748,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1658
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2024-1",
+      "SUMA(Desertores)": 1786,
+      "AGR(Matriculados)": 32077,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1786
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2023-2",
+      "SUMA(Desertores)": 3598,
+      "AGR(Matriculados)": 33551,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 3598
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2023-1",
+      "SUMA(Desertores)": 1709,
+      "AGR(Matriculados)": 33759,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1709
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2022-2",
+      "SUMA(Desertores)": 1826,
+      "AGR(Matriculados)": 33813,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1826
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2022-1",
+      "SUMA(Desertores)": 609,
+      "AGR(Matriculados)": 32911,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 609
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2021-2",
+      "SUMA(Desertores)": 607,
+      "AGR(Matriculados)": 32395,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 607
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2021-1",
+      "SUMA(Desertores)": 1068,
+      "AGR(Matriculados)": 32015,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1068
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2020-2",
+      "SUMA(Desertores)": 561,
+      "AGR(Matriculados)": 30584,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 561
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2020-1",
+      "SUMA(Desertores)": 890,
+      "AGR(Matriculados)": 29918,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 890
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2019-2",
+      "SUMA(Desertores)": 1408,
+      "AGR(Matriculados)": 29486,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1408
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2019-1",
+      "SUMA(Desertores)": 1494,
+      "AGR(Matriculados)": 29331,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1494
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2018-2",
+      "SUMA(Desertores)": 1223,
+      "AGR(Matriculados)": 28779,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1223
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2018-1",
+      "SUMA(Desertores)": 1917,
+      "AGR(Matriculados)": 29171,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1917
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2017-2",
+      "SUMA(Desertores)": 1744,
+      "AGR(Matriculados)": 28413,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1744
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2017-1",
+      "SUMA(Desertores)": 1949,
+      "AGR(Matriculados)": 28665,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1949
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2016-2",
+      "SUMA(Desertores)": 1688,
+      "AGR(Matriculados)": 28347,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1688
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2016-1",
+      "SUMA(Desertores)": 1973,
+      "AGR(Matriculados)": 28574,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1973
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2015-2",
+      "SUMA(Desertores)": 1752,
+      "AGR(Matriculados)": 28186,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1752
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2015-1",
+      "SUMA(Desertores)": 1818,
+      "AGR(Matriculados)": 28443,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1818
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2025-2",
+      "SUMA(Desertores)": 2977,
+      "AGR(Matriculados)": 31301,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 2977
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2025-1",
+      "SUMA(Desertores)": 3126,
+      "AGR(Matriculados)": 31417,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 3126
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2024-2",
+      "SUMA(Desertores)": 3341,
+      "AGR(Matriculados)": 31748,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 3341
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2024-1",
+      "SUMA(Desertores)": 2961,
+      "AGR(Matriculados)": 32077,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 2961
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2023-2",
+      "SUMA(Desertores)": 3822,
+      "AGR(Matriculados)": 33551,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 3822
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2023-1",
+      "SUMA(Desertores)": 5442,
+      "AGR(Matriculados)": 33759,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 5442
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2022-2",
+      "SUMA(Desertores)": 5491,
+      "AGR(Matriculados)": 33813,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 5491
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2022-1",
+      "SUMA(Desertores)": 5001,
+      "AGR(Matriculados)": 32911,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 5001
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2021-2",
+      "SUMA(Desertores)": 4521,
+      "AGR(Matriculados)": 32395,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 4521
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2021-1",
+      "SUMA(Desertores)": 3406,
+      "AGR(Matriculados)": 32015,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 3406
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2020-2",
+      "SUMA(Desertores)": 4131,
+      "AGR(Matriculados)": 30584,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 4131
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2020-1",
+      "SUMA(Desertores)": 3510,
+      "AGR(Matriculados)": 29918,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 3510
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2019-2",
+      "SUMA(Desertores)": 4005,
+      "AGR(Matriculados)": 29486,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 4005
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2019-1",
+      "SUMA(Desertores)": 4768,
+      "AGR(Matriculados)": 29331,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 4768
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2018-2",
+      "SUMA(Desertores)": 3624,
+      "AGR(Matriculados)": 28779,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 3624
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2018-1",
+      "SUMA(Desertores)": 4652,
+      "AGR(Matriculados)": 29171,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 4652
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2017-2",
+      "SUMA(Desertores)": 4528,
+      "AGR(Matriculados)": 28413,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 4528
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2017-1",
+      "SUMA(Desertores)": 4116,
+      "AGR(Matriculados)": 28665,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 4116
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2016-2",
+      "SUMA(Desertores)": 4593,
+      "AGR(Matriculados)": 28347,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 4593
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2016-1",
+      "SUMA(Desertores)": 4903,
+      "AGR(Matriculados)": 28574,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 4903
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2015-2",
+      "SUMA(Desertores)": 4662,
+      "AGR(Matriculados)": 28186,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 4662
+    },
+    {
+      "_zone": "29",
+      "PERIODO": "2015-1",
+      "SUMA(Desertores)": 4682,
+      "AGR(Matriculados)": 28443,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 4682
+    }
+  ],
+  "serie_temporal_tasas": [
+    {
+      "_zone": "35",
+      "PERIODO": "2015-1",
+      "AGR(Tasa deserción)": 0.058176,
+      "Nombres de medidas": "Tasa deserción",
+      "AGR(Tasa desvinculación)": 0.1715895569398754
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2015-2",
+      "AGR(Tasa deserción)": 0.05623856450422111,
+      "Nombres de medidas": "Tasa deserción",
+      "AGR(Tasa desvinculación)": 0.1715895569398754
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2016-1",
+      "AGR(Tasa deserción)": 0.06274447447924948,
+      "Nombres de medidas": "Tasa deserción",
+      "AGR(Tasa desvinculación)": 0.1715895569398754
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2016-2",
+      "AGR(Tasa deserción)": 0.0542555926973515,
+      "Nombres de medidas": "Tasa deserción",
+      "AGR(Tasa desvinculación)": 0.1715895569398754
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2017-1",
+      "AGR(Tasa deserción)": 0.06294609695442949,
+      "Nombres de medidas": "Tasa deserción",
+      "AGR(Tasa desvinculación)": 0.1715895569398754
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2017-2",
+      "AGR(Tasa deserción)": 0.05587952579301506,
+      "Nombres de medidas": "Tasa deserción",
+      "AGR(Tasa desvinculación)": 0.1715895569398754
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2018-1",
+      "AGR(Tasa deserción)": 0.0601110031043241,
+      "Nombres de medidas": "Tasa deserción",
+      "AGR(Tasa desvinculación)": 0.1715895569398754
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2018-2",
+      "AGR(Tasa deserción)": 0.04045917692205902,
+      "Nombres de medidas": "Tasa deserción",
+      "AGR(Tasa desvinculación)": 0.1715895569398754
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2019-1",
+      "AGR(Tasa deserción)": 0.04699147611109364,
+      "Nombres de medidas": "Tasa deserción",
+      "AGR(Tasa desvinculación)": 0.1715895569398754
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2019-2",
+      "AGR(Tasa deserción)": 0.04494955944323841,
+      "Nombres de medidas": "Tasa deserción",
+      "AGR(Tasa desvinculación)": 0.1715895569398754
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2020-1",
+      "AGR(Tasa deserción)": 0.028937443100533228,
+      "Nombres de medidas": "Tasa deserción",
+      "AGR(Tasa desvinculación)": 0.1715895569398754
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2020-2",
+      "AGR(Tasa deserción)": 0.018016571391868456,
+      "Nombres de medidas": "Tasa deserción",
+      "AGR(Tasa desvinculación)": 0.1715895569398754
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2021-1",
+      "AGR(Tasa deserción)": 0.03298026742426582,
+      "Nombres de medidas": "Tasa deserción",
+      "AGR(Tasa desvinculación)": 0.1715895569398754
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2021-2",
+      "AGR(Tasa deserción)": 0.018441440072915084,
+      "Nombres de medidas": "Tasa deserción",
+      "AGR(Tasa desvinculación)": 0.1715895569398754
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2022-1",
+      "AGR(Tasa deserción)": 0.018194855247826477,
+      "Nombres de medidas": "Tasa deserción",
+      "AGR(Tasa desvinculación)": 0.1715895569398754
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2022-2",
+      "AGR(Tasa deserción)": 0.051848486569367934,
+      "Nombres de medidas": "Tasa deserción",
+      "AGR(Tasa desvinculación)": 0.1715895569398754
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2023-1",
+      "AGR(Tasa deserción)": 0.04846439610923631,
+      "Nombres de medidas": "Tasa deserción",
+      "AGR(Tasa desvinculación)": 0.1715895569398754
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2023-2",
+      "AGR(Tasa deserción)": 0.10282937982280652,
+      "Nombres de medidas": "Tasa deserción",
+      "AGR(Tasa desvinculación)": 0.1715895569398754
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2024-1",
+      "AGR(Tasa deserción)": 0.05417210106463648,
+      "Nombres de medidas": "Tasa deserción",
+      "AGR(Tasa desvinculación)": 0.1715895569398754
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2024-2",
+      "AGR(Tasa deserción)": 0.05021959715280934,
+      "Nombres de medidas": "Tasa deserción",
+      "AGR(Tasa desvinculación)": 0.1715895569398754
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2025-1",
+      "AGR(Tasa deserción)": 0.047001019745990545,
+      "Nombres de medidas": "Tasa deserción",
+      "AGR(Tasa desvinculación)": 0.1715895569398754
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2025-2",
+      "AGR(Tasa deserción)": 0.05074506645187274,
+      "Nombres de medidas": "Tasa deserción",
+      "AGR(Tasa desvinculación)": 0.1715895569398754
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2015-1",
+      "AGR(Tasa deserción)": 0.058176,
+      "Nombres de medidas": "Tasa desvinculación",
+      "AGR(Tasa desvinculación)": 0.16460992159758112
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2015-2",
+      "AGR(Tasa deserción)": 0.05623856450422111,
+      "Nombres de medidas": "Tasa desvinculación",
+      "AGR(Tasa desvinculación)": 0.16540126303838784
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2016-1",
+      "AGR(Tasa deserción)": 0.06274447447924948,
+      "Nombres de medidas": "Tasa desvinculación",
+      "AGR(Tasa desvinculación)": 0.1715895569398754
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2016-2",
+      "AGR(Tasa deserción)": 0.0542555926973515,
+      "Nombres de medidas": "Tasa desvinculación",
+      "AGR(Tasa desvinculación)": 0.1620277278018838
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2017-1",
+      "AGR(Tasa deserción)": 0.06294609695442949,
+      "Nombres de medidas": "Tasa desvinculación",
+      "AGR(Tasa desvinculación)": 0.14358974358974358
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2017-2",
+      "AGR(Tasa deserción)": 0.05587952579301506,
+      "Nombres de medidas": "Tasa desvinculación",
+      "AGR(Tasa desvinculación)": 0.15936367155879352
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2018-1",
+      "AGR(Tasa deserción)": 0.0601110031043241,
+      "Nombres de medidas": "Tasa desvinculación",
+      "AGR(Tasa desvinculación)": 0.1594734496589078
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2018-2",
+      "AGR(Tasa deserción)": 0.04045917692205902,
+      "Nombres de medidas": "Tasa desvinculación",
+      "AGR(Tasa desvinculación)": 0.1259251537579485
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2019-1",
+      "AGR(Tasa deserción)": 0.04699147611109364,
+      "Nombres de medidas": "Tasa desvinculación",
+      "AGR(Tasa desvinculación)": 0.16255838532610548
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2019-2",
+      "AGR(Tasa deserción)": 0.04494955944323841,
+      "Nombres de medidas": "Tasa desvinculación",
+      "AGR(Tasa desvinculación)": 0.1358271722173235
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2020-1",
+      "AGR(Tasa deserción)": 0.028937443100533228,
+      "Nombres de medidas": "Tasa desvinculación",
+      "AGR(Tasa desvinculación)": 0.11732067651580988
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2020-2",
+      "AGR(Tasa deserción)": 0.018016571391868456,
+      "Nombres de medidas": "Tasa desvinculación",
+      "AGR(Tasa desvinculación)": 0.13507062516348417
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2021-1",
+      "AGR(Tasa deserción)": 0.03298026742426582,
+      "Nombres de medidas": "Tasa desvinculación",
+      "AGR(Tasa desvinculación)": 0.1063876307980634
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2021-2",
+      "AGR(Tasa deserción)": 0.018441440072915084,
+      "Nombres de medidas": "Tasa desvinculación",
+      "AGR(Tasa desvinculación)": 0.13955857385398981
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2022-1",
+      "AGR(Tasa deserción)": 0.018194855247826477,
+      "Nombres de medidas": "Tasa desvinculación",
+      "AGR(Tasa desvinculación)": 0.15195527331287412
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2022-2",
+      "AGR(Tasa deserción)": 0.051848486569367934,
+      "Nombres de medidas": "Tasa desvinculación",
+      "AGR(Tasa desvinculación)": 0.1623931623931624
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2023-1",
+      "AGR(Tasa deserción)": 0.04846439610923631,
+      "Nombres de medidas": "Tasa desvinculación",
+      "AGR(Tasa desvinculación)": 0.16120145738914068
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2023-2",
+      "AGR(Tasa deserción)": 0.10282937982280652,
+      "Nombres de medidas": "Tasa desvinculación",
+      "AGR(Tasa desvinculación)": 0.11391612768620905
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2024-1",
+      "AGR(Tasa deserción)": 0.05417210106463648,
+      "Nombres de medidas": "Tasa desvinculación",
+      "AGR(Tasa desvinculación)": 0.09230913115316271
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2024-2",
+      "AGR(Tasa deserción)": 0.05021959715280934,
+      "Nombres de medidas": "Tasa desvinculación",
+      "AGR(Tasa desvinculación)": 0.10523497543152324
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2025-1",
+      "AGR(Tasa deserción)": 0.047001019745990545,
+      "Nombres de medidas": "Tasa desvinculación",
+      "AGR(Tasa desvinculación)": 0.09950027055415858
+    },
+    {
+      "_zone": "35",
+      "PERIODO": "2025-2",
+      "AGR(Tasa deserción)": 0.05074506645187274,
+      "Nombres de medidas": "Tasa desvinculación",
+      "AGR(Tasa desvinculación)": 0.09510878246701383
+    }
+  ],
+  "zona_49": [
+    {
+      "_zone": "49",
+      "AGR(periodo_elegido)": "en 2025"
+    }
+  ],
+  "zona_54": [
+    {
+      "_zone": "54",
+      "AGR(periodo_elegido)": "en 2025"
+    }
+  ],
+  "por_subacceso_grupo": [
+    {
+      "_zone": "59",
+      "SUBACCESO (grupo)": "Regular",
+      "SUMA(Desertores)": 1361,
+      "AGR(Matriculados)": 25981,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1361
+    },
+    {
+      "_zone": "59",
+      "SUBACCESO (grupo)": "PEAMA",
+      "SUMA(Desertores)": 139,
+      "AGR(Matriculados)": 2899,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 139
+    },
+    {
+      "_zone": "59",
+      "SUBACCESO (grupo)": "PAES",
+      "SUMA(Desertores)": 104,
+      "AGR(Matriculados)": 1760,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 104
+    },
+    {
+      "_zone": "59",
+      "SUBACCESO (grupo)": "PAET",
+      "SUMA(Desertores)": 34,
+      "AGR(Matriculados)": 646,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 34
+    },
+    {
+      "_zone": "59",
+      "SUBACCESO (grupo)": "Doble titulación",
+      "SUMA(Desertores)": 0,
+      "AGR(Matriculados)": 3,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 0
+    },
+    {
+      "_zone": "59",
+      "SUBACCESO (grupo)": "Regular",
+      "SUMA(Desertores)": 1361,
+      "AGR(Matriculados)": 25981,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 2469
+    },
+    {
+      "_zone": "59",
+      "SUBACCESO (grupo)": "PEAMA",
+      "SUMA(Desertores)": 139,
+      "AGR(Matriculados)": 2899,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 255
+    },
+    {
+      "_zone": "59",
+      "SUBACCESO (grupo)": "PAES",
+      "SUMA(Desertores)": 104,
+      "AGR(Matriculados)": 1760,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 196
+    },
+    {
+      "_zone": "59",
+      "SUBACCESO (grupo)": "PAET",
+      "SUMA(Desertores)": 34,
+      "AGR(Matriculados)": 646,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 54
+    },
+    {
+      "_zone": "59",
+      "SUBACCESO (grupo)": "Doble titulación",
+      "SUMA(Desertores)": 0,
+      "AGR(Matriculados)": 3,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 2
+    }
+  ],
+  "por_nivelacion_matematicas": [
+    {
+      "_zone": "60",
+      "NIVELA_MATEMATICAS": "NO",
+      "SUMA(Desertores)": 1549,
+      "AGR(Matriculados)": 29978,
+      "Nombres de medidas": "Desvinculados",
+      "Valores de medidas": null
+    },
+    {
+      "_zone": "60",
+      "NIVELA_MATEMATICAS": "SI",
+      "SUMA(Desertores)": 89,
+      "AGR(Matriculados)": 1323,
+      "Nombres de medidas": "Desvinculados",
+      "Valores de medidas": null
+    },
+    {
+      "_zone": "60",
+      "NIVELA_MATEMATICAS": "NO",
+      "SUMA(Desertores)": 1549,
+      "AGR(Matriculados)": 29978,
+      "Nombres de medidas": "Desertores",
+      "Valores de medidas": null
+    },
+    {
+      "_zone": "60",
+      "NIVELA_MATEMATICAS": "SI",
+      "SUMA(Desertores)": 89,
+      "AGR(Matriculados)": 1323,
+      "Nombres de medidas": "Desertores",
+      "Valores de medidas": null
+    }
+  ],
+  "por_nivelacion_lectoescritura": [
+    {
+      "_zone": "61",
+      "NIVELA_LECTOESCRITURA": "NO",
+      "SUMA(Desertores)": 1609,
+      "AGR(Matriculados)": 30824,
+      "Nombres de medidas": "Desvinculados",
+      "Valores de medidas": null
+    },
+    {
+      "_zone": "61",
+      "NIVELA_LECTOESCRITURA": "SI",
+      "SUMA(Desertores)": 29,
+      "AGR(Matriculados)": 477,
+      "Nombres de medidas": "Desvinculados",
+      "Valores de medidas": null
+    },
+    {
+      "_zone": "61",
+      "NIVELA_LECTOESCRITURA": "NO",
+      "SUMA(Desertores)": 1609,
+      "AGR(Matriculados)": 30824,
+      "Nombres de medidas": "Desertores",
+      "Valores de medidas": null
+    },
+    {
+      "_zone": "61",
+      "NIVELA_LECTOESCRITURA": "SI",
+      "SUMA(Desertores)": 29,
+      "AGR(Matriculados)": 477,
+      "Nombres de medidas": "Desertores",
+      "Valores de medidas": null
+    }
+  ],
+  "por_nivel_ingles": [
+    {
+      "_zone": "62",
+      "NIV_INGLES": "NO",
+      "SUMA(Desertores)": 1638,
+      "AGR(Matriculados)": 31223,
+      "ATRIB(NIV_INGLES)": "NO",
+      "Nombres de medidas": "Desvinculados",
+      "Valores de medidas": null
+    },
+    {
+      "_zone": "62",
+      "NIV_INGLES": "4",
+      "SUMA(Desertores)": 0,
+      "AGR(Matriculados)": 1,
+      "ATRIB(NIV_INGLES)": "4",
+      "Nombres de medidas": "Desvinculados",
+      "Valores de medidas": null
+    },
+    {
+      "_zone": "62",
+      "NIV_INGLES": "2",
+      "SUMA(Desertores)": 0,
+      "AGR(Matriculados)": 3,
+      "ATRIB(NIV_INGLES)": "2",
+      "Nombres de medidas": "Desvinculados",
+      "Valores de medidas": null
+    },
+    {
+      "_zone": "62",
+      "NIV_INGLES": "1",
+      "SUMA(Desertores)": 0,
+      "AGR(Matriculados)": 74,
+      "ATRIB(NIV_INGLES)": "1",
+      "Nombres de medidas": "Desvinculados",
+      "Valores de medidas": null
+    },
+    {
+      "_zone": "62",
+      "NIV_INGLES": "NO",
+      "SUMA(Desertores)": 1638,
+      "AGR(Matriculados)": 31223,
+      "ATRIB(NIV_INGLES)": "NO",
+      "Nombres de medidas": "Desertores",
+      "Valores de medidas": null
+    },
+    {
+      "_zone": "62",
+      "NIV_INGLES": "4",
+      "SUMA(Desertores)": 0,
+      "AGR(Matriculados)": 1,
+      "ATRIB(NIV_INGLES)": "4",
+      "Nombres de medidas": "Desertores",
+      "Valores de medidas": null
+    },
+    {
+      "_zone": "62",
+      "NIV_INGLES": "2",
+      "SUMA(Desertores)": 0,
+      "AGR(Matriculados)": 3,
+      "ATRIB(NIV_INGLES)": "2",
+      "Nombres de medidas": "Desertores",
+      "Valores de medidas": null
+    },
+    {
+      "_zone": "62",
+      "NIV_INGLES": "1",
+      "SUMA(Desertores)": 0,
+      "AGR(Matriculados)": 74,
+      "ATRIB(NIV_INGLES)": "1",
+      "Nombres de medidas": "Desertores",
+      "Valores de medidas": null
+    }
+  ],
+  "por_facultad": [
+    {
+      "_zone": "67",
+      "FACULTAD": "Ingeniería",
+      "SUMA(Desertores)": 429,
+      "AGR(Matriculados)": 8119,
+      "ATRIB(FACULTAD)": "Ingeniería",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 429
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Ciencias Humanas",
+      "SUMA(Desertores)": 274,
+      "AGR(Matriculados)": 4497,
+      "ATRIB(FACULTAD)": "Ciencias Humanas",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 274
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Ciencias",
+      "SUMA(Desertores)": 211,
+      "AGR(Matriculados)": 4013,
+      "ATRIB(FACULTAD)": "Ciencias",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 211
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Ciencias Económicas",
+      "SUMA(Desertores)": 183,
+      "AGR(Matriculados)": 3079,
+      "ATRIB(FACULTAD)": "Ciencias Económicas",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 183
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Artes",
+      "SUMA(Desertores)": 97,
+      "AGR(Matriculados)": 2903,
+      "ATRIB(FACULTAD)": "Artes",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 97
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Derecho, Ciencias Políticas y Sociales",
+      "SUMA(Desertores)": 93,
+      "AGR(Matriculados)": 1688,
+      "ATRIB(FACULTAD)": "Derecho, Ciencias Políticas y Sociales",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 93
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Medicina",
+      "SUMA(Desertores)": 90,
+      "AGR(Matriculados)": 2614,
+      "ATRIB(FACULTAD)": "Medicina",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 90
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Ciencias Agrarias",
+      "SUMA(Desertores)": 77,
+      "AGR(Matriculados)": 957,
+      "ATRIB(FACULTAD)": "Ciencias Agrarias",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 77
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Medicina Veterinaria y de Zootecnia",
+      "SUMA(Desertores)": 69,
+      "AGR(Matriculados)": 1250,
+      "ATRIB(FACULTAD)": "Medicina Veterinaria y de Zootecnia",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 69
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Enfermería",
+      "SUMA(Desertores)": 62,
+      "AGR(Matriculados)": 890,
+      "ATRIB(FACULTAD)": "Enfermería",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 62
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Odontología",
+      "SUMA(Desertores)": 31,
+      "AGR(Matriculados)": 716,
+      "ATRIB(FACULTAD)": "Odontología",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 31
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Medicina Veterinaria y de Zootecnia (Admisión Paet)",
+      "SUMA(Desertores)": 10,
+      "AGR(Matriculados)": 208,
+      "ATRIB(FACULTAD)": "Medicina Veterinaria y de Zootecnia (Admisión Paet)",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 10
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Enfermería (Admisión Paet)",
+      "SUMA(Desertores)": 6,
+      "AGR(Matriculados)": 201,
+      "ATRIB(FACULTAD)": "Enfermería (Admisión Paet)",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 6
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Ciencias Humanas (Admisión Paet)",
+      "SUMA(Desertores)": 4,
+      "AGR(Matriculados)": 76,
+      "ATRIB(FACULTAD)": "Ciencias Humanas (Admisión Paet)",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 4
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Derecho, Ciencias Políticas y Sociales (Admisión Paet)",
+      "SUMA(Desertores)": 1,
+      "AGR(Matriculados)": 29,
+      "ATRIB(FACULTAD)": "Derecho, Ciencias Políticas y Sociales (Admisión Paet)",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Ciencias (Admisión Paet)",
+      "SUMA(Desertores)": 1,
+      "AGR(Matriculados)": 61,
+      "ATRIB(FACULTAD)": "Ciencias (Admisión Paet)",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Ingeniería",
+      "SUMA(Desertores)": 890,
+      "AGR(Matriculados)": 8119,
+      "ATRIB(FACULTAD)": "Ingeniería",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 890
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Ciencias Humanas",
+      "SUMA(Desertores)": 459,
+      "AGR(Matriculados)": 4497,
+      "ATRIB(FACULTAD)": "Ciencias Humanas",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 459
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Ciencias",
+      "SUMA(Desertores)": 481,
+      "AGR(Matriculados)": 4013,
+      "ATRIB(FACULTAD)": "Ciencias",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 481
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Ciencias Económicas",
+      "SUMA(Desertores)": 296,
+      "AGR(Matriculados)": 3079,
+      "ATRIB(FACULTAD)": "Ciencias Económicas",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 296
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Artes",
+      "SUMA(Desertores)": 198,
+      "AGR(Matriculados)": 2903,
+      "ATRIB(FACULTAD)": "Artes",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 198
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Derecho, Ciencias Políticas y Sociales",
+      "SUMA(Desertores)": 126,
+      "AGR(Matriculados)": 1688,
+      "ATRIB(FACULTAD)": "Derecho, Ciencias Políticas y Sociales",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 126
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Medicina",
+      "SUMA(Desertores)": 160,
+      "AGR(Matriculados)": 2614,
+      "ATRIB(FACULTAD)": "Medicina",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 160
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Ciencias Agrarias",
+      "SUMA(Desertores)": 113,
+      "AGR(Matriculados)": 957,
+      "ATRIB(FACULTAD)": "Ciencias Agrarias",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 113
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Medicina Veterinaria y de Zootecnia",
+      "SUMA(Desertores)": 110,
+      "AGR(Matriculados)": 1250,
+      "ATRIB(FACULTAD)": "Medicina Veterinaria y de Zootecnia",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 110
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Enfermería",
+      "SUMA(Desertores)": 59,
+      "AGR(Matriculados)": 890,
+      "ATRIB(FACULTAD)": "Enfermería",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 59
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Odontología",
+      "SUMA(Desertores)": 33,
+      "AGR(Matriculados)": 716,
+      "ATRIB(FACULTAD)": "Odontología",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 33
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Medicina Veterinaria y de Zootecnia (Admisión Paet)",
+      "SUMA(Desertores)": 25,
+      "AGR(Matriculados)": 208,
+      "ATRIB(FACULTAD)": "Medicina Veterinaria y de Zootecnia (Admisión Paet)",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 25
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Enfermería (Admisión Paet)",
+      "SUMA(Desertores)": 11,
+      "AGR(Matriculados)": 201,
+      "ATRIB(FACULTAD)": "Enfermería (Admisión Paet)",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 11
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Ciencias Humanas (Admisión Paet)",
+      "SUMA(Desertores)": 7,
+      "AGR(Matriculados)": 76,
+      "ATRIB(FACULTAD)": "Ciencias Humanas (Admisión Paet)",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 7
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Derecho, Ciencias Políticas y Sociales (Admisión Paet)",
+      "SUMA(Desertores)": 4,
+      "AGR(Matriculados)": 29,
+      "ATRIB(FACULTAD)": "Derecho, Ciencias Políticas y Sociales (Admisión Paet)",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 4
+    },
+    {
+      "_zone": "67",
+      "FACULTAD": "Ciencias (Admisión Paet)",
+      "SUMA(Desertores)": 5,
+      "AGR(Matriculados)": 61,
+      "ATRIB(FACULTAD)": "Ciencias (Admisión Paet)",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 5
+    }
+  ],
+  "por_programa_curricular": [
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Ingeniería Agronómica",
+      "SUMA(Desertores)": 77,
+      "AGR(Matriculados)": 957,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Ingeniería Agronómica",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 77
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Ingeniería Agrícola",
+      "SUMA(Desertores)": 76,
+      "AGR(Matriculados)": 685,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Ingeniería Agrícola",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 76
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Contaduria Pública",
+      "SUMA(Desertores)": 70,
+      "AGR(Matriculados)": 1048,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Contaduria Pública",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 70
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Enfermería",
+      "SUMA(Desertores)": 68,
+      "AGR(Matriculados)": 1091,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Enfermería",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 68
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Ingeniería Química",
+      "SUMA(Desertores)": 67,
+      "AGR(Matriculados)": 1326,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Ingeniería Química",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 67
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Ingeniería Civil",
+      "SUMA(Desertores)": 64,
+      "AGR(Matriculados)": 1369,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Ingeniería Civil",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 64
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Administración de Empresas",
+      "SUMA(Desertores)": 61,
+      "AGR(Matriculados)": 985,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Administración de Empresas",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 61
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Ingeniería de Sistemas y Computación",
+      "SUMA(Desertores)": 59,
+      "AGR(Matriculados)": 1326,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Ingeniería de Sistemas y Computación",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 59
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Economía",
+      "SUMA(Desertores)": 52,
+      "AGR(Matriculados)": 1046,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Economía",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 52
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Derecho",
+      "SUMA(Desertores)": 51,
+      "AGR(Matriculados)": 1014,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Derecho",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 51
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Ingeniería Mecánica",
+      "SUMA(Desertores)": 50,
+      "AGR(Matriculados)": 870,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Ingeniería Mecánica",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 50
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Filología E Idiomas",
+      "SUMA(Desertores)": 48,
+      "AGR(Matriculados)": 830,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Filología E Idiomas",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 48
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Química",
+      "SUMA(Desertores)": 45,
+      "AGR(Matriculados)": 675,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Química",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 45
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Medicina Veterinaria",
+      "SUMA(Desertores)": 44,
+      "AGR(Matriculados)": 891,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Medicina Veterinaria",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 44
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Ingeniería Eléctrica",
+      "SUMA(Desertores)": 43,
+      "AGR(Matriculados)": 666,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Ingeniería Eléctrica",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 43
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Ciencia Política",
+      "SUMA(Desertores)": 43,
+      "AGR(Matriculados)": 703,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Ciencia Política",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 43
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Medicina",
+      "SUMA(Desertores)": 40,
+      "AGR(Matriculados)": 1431,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Medicina",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 40
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Zootecnia",
+      "SUMA(Desertores)": 35,
+      "AGR(Matriculados)": 567,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Zootecnia",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 35
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Psicología",
+      "SUMA(Desertores)": 35,
+      "AGR(Matriculados)": 629,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Psicología",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 35
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Física",
+      "SUMA(Desertores)": 34,
+      "AGR(Matriculados)": 676,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Física",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 34
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Estadística",
+      "SUMA(Desertores)": 32,
+      "AGR(Matriculados)": 454,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Estadística",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 32
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Odontología",
+      "SUMA(Desertores)": 31,
+      "AGR(Matriculados)": 716,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Odontología",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 31
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Filosofía",
+      "SUMA(Desertores)": 30,
+      "AGR(Matriculados)": 365,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Filosofía",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 30
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Matemáticas",
+      "SUMA(Desertores)": 28,
+      "AGR(Matriculados)": 302,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Matemáticas",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 28
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Sociología",
+      "SUMA(Desertores)": 27,
+      "AGR(Matriculados)": 436,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Sociología",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 27
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Ingeniería Electrónica",
+      "SUMA(Desertores)": 27,
+      "AGR(Matriculados)": 721,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Ingeniería Electrónica",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 27
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Español y Filología Clásica",
+      "SUMA(Desertores)": 27,
+      "AGR(Matriculados)": 284,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Español y Filología Clásica",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 27
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Ingeniería Industrial",
+      "SUMA(Desertores)": 26,
+      "AGR(Matriculados)": 570,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Ingeniería Industrial",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 26
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Geografía",
+      "SUMA(Desertores)": 26,
+      "AGR(Matriculados)": 294,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Geografía",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 26
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Trabajo Social",
+      "SUMA(Desertores)": 25,
+      "AGR(Matriculados)": 513,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Trabajo Social",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 25
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Arquitectura",
+      "SUMA(Desertores)": 25,
+      "AGR(Matriculados)": 897,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Arquitectura",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 25
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Fisioterapia",
+      "SUMA(Desertores)": 22,
+      "AGR(Matriculados)": 311,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Fisioterapia",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 22
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Farmacia",
+      "SUMA(Desertores)": 22,
+      "AGR(Matriculados)": 709,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Farmacia",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 22
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Lingüística",
+      "SUMA(Desertores)": 21,
+      "AGR(Matriculados)": 330,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Lingüística",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 21
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Antropología",
+      "SUMA(Desertores)": 21,
+      "AGR(Matriculados)": 444,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Antropología",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 21
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Cine y Televisión",
+      "SUMA(Desertores)": 19,
+      "AGR(Matriculados)": 343,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Cine y Televisión",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 19
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Ciencias de La Computación",
+      "SUMA(Desertores)": 19,
+      "AGR(Matriculados)": 258,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Ciencias de La Computación",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 19
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Artes Plásticas",
+      "SUMA(Desertores)": 18,
+      "AGR(Matriculados)": 416,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Artes Plásticas",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 18
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Ingeniería Mecatrónica",
+      "SUMA(Desertores)": 17,
+      "AGR(Matriculados)": 586,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Ingeniería Mecatrónica",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 17
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Geología",
+      "SUMA(Desertores)": 16,
+      "AGR(Matriculados)": 399,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Geología",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 16
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Diseño Industrial",
+      "SUMA(Desertores)": 16,
+      "AGR(Matriculados)": 548,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Diseño Industrial",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 16
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Biología",
+      "SUMA(Desertores)": 16,
+      "AGR(Matriculados)": 601,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Biología",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 16
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Terapia Ocupacional",
+      "SUMA(Desertores)": 11,
+      "AGR(Matriculados)": 225,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Terapia Ocupacional",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 11
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Nutrición y Dietética",
+      "SUMA(Desertores)": 10,
+      "AGR(Matriculados)": 430,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Nutrición y Dietética",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 10
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Música Instrumental",
+      "SUMA(Desertores)": 10,
+      "AGR(Matriculados)": 281,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Música Instrumental",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 10
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Historia",
+      "SUMA(Desertores)": 10,
+      "AGR(Matriculados)": 257,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Historia",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 10
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Estudios Literarios",
+      "SUMA(Desertores)": 8,
+      "AGR(Matriculados)": 191,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Estudios Literarios",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 8
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Fonoaudiología",
+      "SUMA(Desertores)": 7,
+      "AGR(Matriculados)": 217,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Fonoaudiología",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 7
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Diseño Gráfico",
+      "SUMA(Desertores)": 6,
+      "AGR(Matriculados)": 376,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Diseño Gráfico",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 6
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Música",
+      "SUMA(Desertores)": 3,
+      "AGR(Matriculados)": 42,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Música",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 3
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Ingeniería Agronómica",
+      "SUMA(Desertores)": 113,
+      "AGR(Matriculados)": 957,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Ingeniería Agronómica",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 113
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Ingeniería Agrícola",
+      "SUMA(Desertores)": 156,
+      "AGR(Matriculados)": 685,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Ingeniería Agrícola",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 156
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Contaduria Pública",
+      "SUMA(Desertores)": 122,
+      "AGR(Matriculados)": 1048,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Contaduria Pública",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 122
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Enfermería",
+      "SUMA(Desertores)": 70,
+      "AGR(Matriculados)": 1091,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Enfermería",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 70
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Ingeniería Química",
+      "SUMA(Desertores)": 124,
+      "AGR(Matriculados)": 1326,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Ingeniería Química",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 124
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Ingeniería Civil",
+      "SUMA(Desertores)": 133,
+      "AGR(Matriculados)": 1369,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Ingeniería Civil",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 133
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Administración de Empresas",
+      "SUMA(Desertores)": 85,
+      "AGR(Matriculados)": 985,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Administración de Empresas",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 85
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Ingeniería de Sistemas y Computación",
+      "SUMA(Desertores)": 106,
+      "AGR(Matriculados)": 1326,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Ingeniería de Sistemas y Computación",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 106
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Economía",
+      "SUMA(Desertores)": 89,
+      "AGR(Matriculados)": 1046,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Economía",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 89
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Derecho",
+      "SUMA(Desertores)": 72,
+      "AGR(Matriculados)": 1014,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Derecho",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 72
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Ingeniería Mecánica",
+      "SUMA(Desertores)": 112,
+      "AGR(Matriculados)": 870,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Ingeniería Mecánica",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 112
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Filología E Idiomas",
+      "SUMA(Desertores)": 74,
+      "AGR(Matriculados)": 830,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Filología E Idiomas",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 74
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Química",
+      "SUMA(Desertores)": 100,
+      "AGR(Matriculados)": 675,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Química",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 100
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Medicina Veterinaria",
+      "SUMA(Desertores)": 64,
+      "AGR(Matriculados)": 891,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Medicina Veterinaria",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 64
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Ingeniería Eléctrica",
+      "SUMA(Desertores)": 76,
+      "AGR(Matriculados)": 666,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Ingeniería Eléctrica",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 76
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Ciencia Política",
+      "SUMA(Desertores)": 58,
+      "AGR(Matriculados)": 703,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Ciencia Política",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 58
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Medicina",
+      "SUMA(Desertores)": 76,
+      "AGR(Matriculados)": 1431,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Medicina",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 76
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Zootecnia",
+      "SUMA(Desertores)": 71,
+      "AGR(Matriculados)": 567,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Zootecnia",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 71
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Psicología",
+      "SUMA(Desertores)": 46,
+      "AGR(Matriculados)": 629,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Psicología",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 46
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Física",
+      "SUMA(Desertores)": 81,
+      "AGR(Matriculados)": 676,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Física",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 81
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Estadística",
+      "SUMA(Desertores)": 71,
+      "AGR(Matriculados)": 454,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Estadística",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 71
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Odontología",
+      "SUMA(Desertores)": 33,
+      "AGR(Matriculados)": 716,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Odontología",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 33
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Filosofía",
+      "SUMA(Desertores)": 51,
+      "AGR(Matriculados)": 365,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Filosofía",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 51
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Matemáticas",
+      "SUMA(Desertores)": 44,
+      "AGR(Matriculados)": 302,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Matemáticas",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 44
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Sociología",
+      "SUMA(Desertores)": 48,
+      "AGR(Matriculados)": 436,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Sociología",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 48
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Ingeniería Electrónica",
+      "SUMA(Desertores)": 67,
+      "AGR(Matriculados)": 721,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Ingeniería Electrónica",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 67
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Español y Filología Clásica",
+      "SUMA(Desertores)": 32,
+      "AGR(Matriculados)": 284,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Español y Filología Clásica",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 32
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Ingeniería Industrial",
+      "SUMA(Desertores)": 41,
+      "AGR(Matriculados)": 570,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Ingeniería Industrial",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 41
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Geografía",
+      "SUMA(Desertores)": 38,
+      "AGR(Matriculados)": 294,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Geografía",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 38
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Trabajo Social",
+      "SUMA(Desertores)": 42,
+      "AGR(Matriculados)": 513,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Trabajo Social",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 42
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Arquitectura",
+      "SUMA(Desertores)": 51,
+      "AGR(Matriculados)": 897,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Arquitectura",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 51
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Fisioterapia",
+      "SUMA(Desertores)": 30,
+      "AGR(Matriculados)": 311,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Fisioterapia",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 30
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Farmacia",
+      "SUMA(Desertores)": 47,
+      "AGR(Matriculados)": 709,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Farmacia",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 47
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Lingüística",
+      "SUMA(Desertores)": 42,
+      "AGR(Matriculados)": 330,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Lingüística",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 42
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Antropología",
+      "SUMA(Desertores)": 41,
+      "AGR(Matriculados)": 444,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Antropología",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 41
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Cine y Televisión",
+      "SUMA(Desertores)": 16,
+      "AGR(Matriculados)": 343,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Cine y Televisión",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 16
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Ciencias de La Computación",
+      "SUMA(Desertores)": 41,
+      "AGR(Matriculados)": 258,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Ciencias de La Computación",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 41
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Artes Plásticas",
+      "SUMA(Desertores)": 40,
+      "AGR(Matriculados)": 416,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Artes Plásticas",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 40
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Ingeniería Mecatrónica",
+      "SUMA(Desertores)": 75,
+      "AGR(Matriculados)": 586,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Ingeniería Mecatrónica",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 75
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Geología",
+      "SUMA(Desertores)": 51,
+      "AGR(Matriculados)": 399,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Geología",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 51
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Diseño Industrial",
+      "SUMA(Desertores)": 46,
+      "AGR(Matriculados)": 548,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Diseño Industrial",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 46
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Biología",
+      "SUMA(Desertores)": 51,
+      "AGR(Matriculados)": 601,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Biología",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 51
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Terapia Ocupacional",
+      "SUMA(Desertores)": 14,
+      "AGR(Matriculados)": 225,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Terapia Ocupacional",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 14
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Nutrición y Dietética",
+      "SUMA(Desertores)": 25,
+      "AGR(Matriculados)": 430,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Nutrición y Dietética",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 25
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Música Instrumental",
+      "SUMA(Desertores)": 25,
+      "AGR(Matriculados)": 281,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Música Instrumental",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 25
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Historia",
+      "SUMA(Desertores)": 35,
+      "AGR(Matriculados)": 257,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Historia",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 35
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Estudios Literarios",
+      "SUMA(Desertores)": 17,
+      "AGR(Matriculados)": 191,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Estudios Literarios",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 17
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Fonoaudiología",
+      "SUMA(Desertores)": 15,
+      "AGR(Matriculados)": 217,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Fonoaudiología",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 15
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Diseño Gráfico",
+      "SUMA(Desertores)": 17,
+      "AGR(Matriculados)": 376,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Diseño Gráfico",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 17
+    },
+    {
+      "_zone": "68",
+      "PROGRAMA_CURRICULAR": "Música",
+      "SUMA(Desertores)": 3,
+      "AGR(Matriculados)": 42,
+      "ATRIB(PROGRAMA_CURRICULAR)": "Música",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 3
+    }
+  ],
+  "clasificacion_papa": [
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.6
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.6
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.6
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.6
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.6
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.6
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.6
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.6
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.6
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.6
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.6
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.6
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.6
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.7
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.7
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.7
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.7
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.7
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.7
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.7
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.8
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.8
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.9
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.9
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.9
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.9
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.9
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.9
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.9
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.9
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.9
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.9
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 0.9
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.6000000000000003
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.6000000000000003
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.6000000000000003
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.7
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.7
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.7
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.7
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.7
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.7
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.7
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.7
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.8
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.8
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.8
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.8
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.8
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.8
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.8
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.8
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.8
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.8
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.8
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.8
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.8
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.8
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.8
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.8
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.9
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.9
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.9
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.9
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.9
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.9
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.9
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 1.9
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "No desertor",
+      "SUMA(PAPA)": 2.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.2
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.3
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.4
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.5
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.6
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.6
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.6
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.6
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.6
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.6
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.6
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.7
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.7
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.7
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.7
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.7
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.8
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.9
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.9
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.9
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.9
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.9
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 0.9
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 1
+    },
+    {
+      "_zone": "69",
+      "Clasificación deserción": "Desertor",
+      "SUMA(PAPA)": 1
+    }
+  ],
+  "por_genero": [
+    {
+      "_zone": "104",
+      "GENERO": "Masculino",
+      "SUMA(Desertores)": 1106,
+      "AGR(Matriculados)": 18898,
+      "ATRIB(GENERO)": "Masculino",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1106
+    },
+    {
+      "_zone": "104",
+      "GENERO": "Femenino",
+      "SUMA(Desertores)": 531,
+      "AGR(Matriculados)": 12389,
+      "ATRIB(GENERO)": "Femenino",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 531
+    },
+    {
+      "_zone": "104",
+      "GENERO": "No Binario",
+      "SUMA(Desertores)": 1,
+      "AGR(Matriculados)": 14,
+      "ATRIB(GENERO)": "No Binario",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1
+    },
+    {
+      "_zone": "104",
+      "GENERO": "Masculino",
+      "SUMA(Desertores)": 2181,
+      "AGR(Matriculados)": 18898,
+      "ATRIB(GENERO)": "Masculino",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 2181
+    },
+    {
+      "_zone": "104",
+      "GENERO": "Femenino",
+      "SUMA(Desertores)": 796,
+      "AGR(Matriculados)": 12389,
+      "ATRIB(GENERO)": "Femenino",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 796
+    },
+    {
+      "_zone": "104",
+      "GENERO": "No Binario",
+      "SUMA(Desertores)": 0,
+      "AGR(Matriculados)": 14,
+      "ATRIB(GENERO)": "No Binario",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 0
+    }
+  ],
+  "por_departamento_procedencia": [
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Bogotá, D.C.",
+      "SUMA(Desertores)": 1048,
+      "AGR(Matriculados)": 18981,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1048
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Cundinamarca",
+      "SUMA(Desertores)": 174,
+      "AGR(Matriculados)": 3820,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 174
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Nariño",
+      "SUMA(Desertores)": 66,
+      "AGR(Matriculados)": 1040,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 66
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Boyacá",
+      "SUMA(Desertores)": 53,
+      "AGR(Matriculados)": 1499,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 53
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Casanare",
+      "SUMA(Desertores)": 31,
+      "AGR(Matriculados)": 806,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 31
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Norte de Santander",
+      "SUMA(Desertores)": 24,
+      "AGR(Matriculados)": 325,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 24
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Arauca",
+      "SUMA(Desertores)": 21,
+      "AGR(Matriculados)": 526,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 21
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Valle Del Cauca",
+      "SUMA(Desertores)": 20,
+      "AGR(Matriculados)": 345,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 20
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Santander",
+      "SUMA(Desertores)": 20,
+      "AGR(Matriculados)": 390,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 20
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Putumayo",
+      "SUMA(Desertores)": 20,
+      "AGR(Matriculados)": 491,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 20
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Huila",
+      "SUMA(Desertores)": 19,
+      "AGR(Matriculados)": 369,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 19
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Archipiélago de San Andrés, Providencia y Santa Catalina",
+      "SUMA(Desertores)": 18,
+      "AGR(Matriculados)": 240,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 18
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Meta",
+      "SUMA(Desertores)": 17,
+      "AGR(Matriculados)": 386,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 17
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Tolima",
+      "SUMA(Desertores)": 14,
+      "AGR(Matriculados)": 312,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 14
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Amazonas",
+      "SUMA(Desertores)": 13,
+      "AGR(Matriculados)": 276,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 13
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Córdoba",
+      "SUMA(Desertores)": 12,
+      "AGR(Matriculados)": 173,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 12
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Cauca",
+      "SUMA(Desertores)": 11,
+      "AGR(Matriculados)": 146,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 11
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Cesar",
+      "SUMA(Desertores)": 9,
+      "AGR(Matriculados)": 151,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 9
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Vaupés",
+      "SUMA(Desertores)": 7,
+      "AGR(Matriculados)": 37,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 7
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Antioquia",
+      "SUMA(Desertores)": 7,
+      "AGR(Matriculados)": 196,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 7
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "La Guajira",
+      "SUMA(Desertores)": 6,
+      "AGR(Matriculados)": 72,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 6
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Risaralda",
+      "SUMA(Desertores)": 5,
+      "AGR(Matriculados)": 45,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 5
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Quindío",
+      "SUMA(Desertores)": 4,
+      "AGR(Matriculados)": 55,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 4
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Sucre",
+      "SUMA(Desertores)": 3,
+      "AGR(Matriculados)": 35,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 3
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Caquetá",
+      "SUMA(Desertores)": 3,
+      "AGR(Matriculados)": 100,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 3
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Caldas",
+      "SUMA(Desertores)": 3,
+      "AGR(Matriculados)": 58,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 3
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Atlántico",
+      "SUMA(Desertores)": 3,
+      "AGR(Matriculados)": 79,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 3
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Guainía",
+      "SUMA(Desertores)": 2,
+      "AGR(Matriculados)": 30,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 2
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Bolívar",
+      "SUMA(Desertores)": 2,
+      "AGR(Matriculados)": 113,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 2
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Sin Información",
+      "SUMA(Desertores)": 1,
+      "AGR(Matriculados)": 9,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Magdalena",
+      "SUMA(Desertores)": 1,
+      "AGR(Matriculados)": 40,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Dpto Extranjero",
+      "SUMA(Desertores)": 1,
+      "AGR(Matriculados)": 26,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Vichada",
+      "SUMA(Desertores)": 0,
+      "AGR(Matriculados)": 14,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 0
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Guaviare",
+      "SUMA(Desertores)": 0,
+      "AGR(Matriculados)": 102,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 0
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Chocó",
+      "SUMA(Desertores)": 0,
+      "AGR(Matriculados)": 14,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 0
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Bogotá, D.C.",
+      "SUMA(Desertores)": 1926,
+      "AGR(Matriculados)": 18981,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 1926
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Cundinamarca",
+      "SUMA(Desertores)": 351,
+      "AGR(Matriculados)": 3820,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 351
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Nariño",
+      "SUMA(Desertores)": 94,
+      "AGR(Matriculados)": 1040,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 94
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Boyacá",
+      "SUMA(Desertores)": 100,
+      "AGR(Matriculados)": 1499,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 100
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Casanare",
+      "SUMA(Desertores)": 45,
+      "AGR(Matriculados)": 806,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 45
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Norte de Santander",
+      "SUMA(Desertores)": 24,
+      "AGR(Matriculados)": 325,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 24
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Arauca",
+      "SUMA(Desertores)": 40,
+      "AGR(Matriculados)": 526,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 40
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Valle Del Cauca",
+      "SUMA(Desertores)": 32,
+      "AGR(Matriculados)": 345,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 32
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Santander",
+      "SUMA(Desertores)": 26,
+      "AGR(Matriculados)": 390,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 26
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Putumayo",
+      "SUMA(Desertores)": 36,
+      "AGR(Matriculados)": 491,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 36
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Huila",
+      "SUMA(Desertores)": 22,
+      "AGR(Matriculados)": 369,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 22
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Archipiélago de San Andrés, Providencia y Santa Catalina",
+      "SUMA(Desertores)": 32,
+      "AGR(Matriculados)": 240,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 32
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Meta",
+      "SUMA(Desertores)": 25,
+      "AGR(Matriculados)": 386,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 25
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Tolima",
+      "SUMA(Desertores)": 30,
+      "AGR(Matriculados)": 312,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 30
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Amazonas",
+      "SUMA(Desertores)": 43,
+      "AGR(Matriculados)": 276,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 43
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Córdoba",
+      "SUMA(Desertores)": 17,
+      "AGR(Matriculados)": 173,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 17
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Cauca",
+      "SUMA(Desertores)": 25,
+      "AGR(Matriculados)": 146,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 25
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Cesar",
+      "SUMA(Desertores)": 15,
+      "AGR(Matriculados)": 151,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 15
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Vaupés",
+      "SUMA(Desertores)": 10,
+      "AGR(Matriculados)": 37,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 10
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Antioquia",
+      "SUMA(Desertores)": 14,
+      "AGR(Matriculados)": 196,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 14
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "La Guajira",
+      "SUMA(Desertores)": 13,
+      "AGR(Matriculados)": 72,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 13
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Risaralda",
+      "SUMA(Desertores)": 6,
+      "AGR(Matriculados)": 45,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 6
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Quindío",
+      "SUMA(Desertores)": 3,
+      "AGR(Matriculados)": 55,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 3
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Sucre",
+      "SUMA(Desertores)": 4,
+      "AGR(Matriculados)": 35,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 4
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Caquetá",
+      "SUMA(Desertores)": 5,
+      "AGR(Matriculados)": 100,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 5
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Caldas",
+      "SUMA(Desertores)": 11,
+      "AGR(Matriculados)": 58,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 11
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Atlántico",
+      "SUMA(Desertores)": 7,
+      "AGR(Matriculados)": 79,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 7
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Guainía",
+      "SUMA(Desertores)": 1,
+      "AGR(Matriculados)": 30,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 1
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Bolívar",
+      "SUMA(Desertores)": 6,
+      "AGR(Matriculados)": 113,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 6
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Sin Información",
+      "SUMA(Desertores)": 1,
+      "AGR(Matriculados)": 9,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 1
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Magdalena",
+      "SUMA(Desertores)": 4,
+      "AGR(Matriculados)": 40,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 4
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Dpto Extranjero",
+      "SUMA(Desertores)": 1,
+      "AGR(Matriculados)": 26,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 1
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Vichada",
+      "SUMA(Desertores)": 1,
+      "AGR(Matriculados)": 14,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 1
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Guaviare",
+      "SUMA(Desertores)": 5,
+      "AGR(Matriculados)": 102,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 5
+    },
+    {
+      "_zone": "105",
+      "DEPARTAMENTO_PROCEDENCIA": "Chocó",
+      "SUMA(Desertores)": 2,
+      "AGR(Matriculados)": 14,
+      "ATRIB(ESTRATO)": "%many-values%",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 2
+    }
+  ],
+  "por_tipo_colegio": [
+    {
+      "_zone": "106",
+      "TIPCOLEGIO": "Privado",
+      "SUMA(Desertores)": 595,
+      "AGR(Matriculados)": 15825,
+      "ATRIB(TIPCOLEGIO)": "Privado",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 595
+    },
+    {
+      "_zone": "106",
+      "TIPCOLEGIO": "Oficial",
+      "SUMA(Desertores)": 574,
+      "AGR(Matriculados)": 14044,
+      "ATRIB(TIPCOLEGIO)": "Oficial",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 574
+    },
+    {
+      "_zone": "106",
+      "TIPCOLEGIO": "Sin información",
+      "SUMA(Desertores)": 445,
+      "AGR(Matriculados)": 824,
+      "ATRIB(TIPCOLEGIO)": "Sin información",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 445
+    },
+    {
+      "_zone": "106",
+      "TIPCOLEGIO": "Otro",
+      "SUMA(Desertores)": 24,
+      "AGR(Matriculados)": 608,
+      "ATRIB(TIPCOLEGIO)": "Otro",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 24
+    },
+    {
+      "_zone": "106",
+      "TIPCOLEGIO": "Privado",
+      "SUMA(Desertores)": 1396,
+      "AGR(Matriculados)": 15825,
+      "ATRIB(TIPCOLEGIO)": "Privado",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 1396
+    },
+    {
+      "_zone": "106",
+      "TIPCOLEGIO": "Oficial",
+      "SUMA(Desertores)": 1409,
+      "AGR(Matriculados)": 14044,
+      "ATRIB(TIPCOLEGIO)": "Oficial",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 1409
+    },
+    {
+      "_zone": "106",
+      "TIPCOLEGIO": "Sin información",
+      "SUMA(Desertores)": 86,
+      "AGR(Matriculados)": 824,
+      "ATRIB(TIPCOLEGIO)": "Sin información",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 86
+    },
+    {
+      "_zone": "106",
+      "TIPCOLEGIO": "Otro",
+      "SUMA(Desertores)": 86,
+      "AGR(Matriculados)": 608,
+      "ATRIB(TIPCOLEGIO)": "Otro",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 86
+    }
+  ],
+  "por_estrato": [
+    {
+      "_zone": "107",
+      "ESTRATO": "1",
+      "SUMA(Desertores)": 274,
+      "AGR(Matriculados)": 5052,
+      "ATRIB(ESTRATO)": "1",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 274
+    },
+    {
+      "_zone": "107",
+      "ESTRATO": "2",
+      "SUMA(Desertores)": 552,
+      "AGR(Matriculados)": 12216,
+      "ATRIB(ESTRATO)": "2",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 552
+    },
+    {
+      "_zone": "107",
+      "ESTRATO": "3",
+      "SUMA(Desertores)": 578,
+      "AGR(Matriculados)": 10784,
+      "ATRIB(ESTRATO)": "3",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 578
+    },
+    {
+      "_zone": "107",
+      "ESTRATO": "4",
+      "SUMA(Desertores)": 141,
+      "AGR(Matriculados)": 2491,
+      "ATRIB(ESTRATO)": "4",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 141
+    },
+    {
+      "_zone": "107",
+      "ESTRATO": "5",
+      "SUMA(Desertores)": 19,
+      "AGR(Matriculados)": 344,
+      "ATRIB(ESTRATO)": "5",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 19
+    },
+    {
+      "_zone": "107",
+      "ESTRATO": "6",
+      "SUMA(Desertores)": 2,
+      "AGR(Matriculados)": 54,
+      "ATRIB(ESTRATO)": "6",
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 2
+    },
+    {
+      "_zone": "107",
+      "ESTRATO": "1",
+      "SUMA(Desertores)": 509,
+      "AGR(Matriculados)": 5052,
+      "ATRIB(ESTRATO)": "1",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 509
+    },
+    {
+      "_zone": "107",
+      "ESTRATO": "2",
+      "SUMA(Desertores)": 1195,
+      "AGR(Matriculados)": 12216,
+      "ATRIB(ESTRATO)": "2",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 1195
+    },
+    {
+      "_zone": "107",
+      "ESTRATO": "3",
+      "SUMA(Desertores)": 980,
+      "AGR(Matriculados)": 10784,
+      "ATRIB(ESTRATO)": "3",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 980
+    },
+    {
+      "_zone": "107",
+      "ESTRATO": "4",
+      "SUMA(Desertores)": 216,
+      "AGR(Matriculados)": 2491,
+      "ATRIB(ESTRATO)": "4",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 216
+    },
+    {
+      "_zone": "107",
+      "ESTRATO": "5",
+      "SUMA(Desertores)": 20,
+      "AGR(Matriculados)": 344,
+      "ATRIB(ESTRATO)": "5",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 20
+    },
+    {
+      "_zone": "107",
+      "ESTRATO": "6",
+      "SUMA(Desertores)": 6,
+      "AGR(Matriculados)": 54,
+      "ATRIB(ESTRATO)": "6",
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 6
+    }
+  ],
+  "kpi_pbm_promedio": [
+    {
+      "_zone": "108",
+      "PROM(PBM)": null
+    }
+  ],
+  "distribucion_pbm": [
+    {
+      "_zone": "109",
+      "REC(PBM)": 30,
+      "PBM (agrupación)": 100
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 1,
+      "PBM (agrupación)": 96
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 2,
+      "PBM (agrupación)": 95
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 5,
+      "PBM (agrupación)": 94
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 1,
+      "PBM (agrupación)": 90
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 17,
+      "PBM (agrupación)": 87
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 2,
+      "PBM (agrupación)": 86
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 2,
+      "PBM (agrupación)": 85
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 3,
+      "PBM (agrupación)": 84
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 1,
+      "PBM (agrupación)": 83
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 4,
+      "PBM (agrupación)": 82
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 2,
+      "PBM (agrupación)": 81
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 8,
+      "PBM (agrupación)": 80
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 9,
+      "PBM (agrupación)": 79
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 5,
+      "PBM (agrupación)": 78
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 3,
+      "PBM (agrupación)": 77
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 9,
+      "PBM (agrupación)": 76
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 12,
+      "PBM (agrupación)": 75
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 8,
+      "PBM (agrupación)": 74
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 2,
+      "PBM (agrupación)": 73
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 8,
+      "PBM (agrupación)": 72
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 5,
+      "PBM (agrupación)": 71
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 15,
+      "PBM (agrupación)": 70
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 10,
+      "PBM (agrupación)": 69
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 7,
+      "PBM (agrupación)": 68
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 8,
+      "PBM (agrupación)": 67
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 8,
+      "PBM (agrupación)": 66
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 6,
+      "PBM (agrupación)": 65
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 9,
+      "PBM (agrupación)": 64
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 12,
+      "PBM (agrupación)": 63
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 12,
+      "PBM (agrupación)": 62
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 12,
+      "PBM (agrupación)": 61
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 13,
+      "PBM (agrupación)": 60
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 15,
+      "PBM (agrupación)": 59
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 15,
+      "PBM (agrupación)": 58
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 9,
+      "PBM (agrupación)": 57
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 21,
+      "PBM (agrupación)": 56
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 12,
+      "PBM (agrupación)": 55
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 16,
+      "PBM (agrupación)": 54
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 11,
+      "PBM (agrupación)": 53
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 16,
+      "PBM (agrupación)": 52
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 29,
+      "PBM (agrupación)": 51
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 16,
+      "PBM (agrupación)": 50
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 13,
+      "PBM (agrupación)": 49
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 18,
+      "PBM (agrupación)": 48
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 7,
+      "PBM (agrupación)": 47
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 23,
+      "PBM (agrupación)": 46
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 19,
+      "PBM (agrupación)": 45
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 19,
+      "PBM (agrupación)": 44
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 16,
+      "PBM (agrupación)": 43
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 18,
+      "PBM (agrupación)": 42
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 27,
+      "PBM (agrupación)": 41
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 21,
+      "PBM (agrupación)": 40
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 18,
+      "PBM (agrupación)": 39
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 28,
+      "PBM (agrupación)": 38
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 19,
+      "PBM (agrupación)": 37
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 17,
+      "PBM (agrupación)": 36
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 12,
+      "PBM (agrupación)": 35
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 17,
+      "PBM (agrupación)": 34
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 12,
+      "PBM (agrupación)": 33
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 16,
+      "PBM (agrupación)": 32
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 20,
+      "PBM (agrupación)": 31
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 19,
+      "PBM (agrupación)": 30
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 19,
+      "PBM (agrupación)": 29
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 17,
+      "PBM (agrupación)": 28
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 12,
+      "PBM (agrupación)": 27
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 14,
+      "PBM (agrupación)": 26
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 19,
+      "PBM (agrupación)": 25
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 15,
+      "PBM (agrupación)": 24
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 12,
+      "PBM (agrupación)": 23
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 15,
+      "PBM (agrupación)": 22
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 16,
+      "PBM (agrupación)": 21
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 12,
+      "PBM (agrupación)": 20
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 21,
+      "PBM (agrupación)": 19
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 23,
+      "PBM (agrupación)": 18
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 23,
+      "PBM (agrupación)": 17
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 39,
+      "PBM (agrupación)": 16
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 27,
+      "PBM (agrupación)": 15
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 41,
+      "PBM (agrupación)": 14
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 37,
+      "PBM (agrupación)": 13
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 29,
+      "PBM (agrupación)": 12
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 20,
+      "PBM (agrupación)": 11
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 24,
+      "PBM (agrupación)": 10
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 36,
+      "PBM (agrupación)": 9
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 42,
+      "PBM (agrupación)": 8
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 27,
+      "PBM (agrupación)": 7
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 34,
+      "PBM (agrupación)": 6
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 25,
+      "PBM (agrupación)": 5
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 11,
+      "PBM (agrupación)": 4
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 31,
+      "PBM (agrupación)": 3
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 24,
+      "PBM (agrupación)": 2
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 10,
+      "PBM (agrupación)": 1
+    },
+    {
+      "_zone": "109",
+      "REC(PBM)": 0,
+      "PBM (agrupación)": 0
+    }
+  ],
+  "kpi_edad_promedio": [
+    {
+      "_zone": "110",
+      "PROM(EDAD)": null
+    }
+  ],
+  "distribucion_edad": [
+    {
+      "_zone": "111",
+      "REC(EDAD)": 1,
+      "EDAD (agrupación)": 61
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 1,
+      "EDAD (agrupación)": 57
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 1,
+      "EDAD (agrupación)": 51
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 2,
+      "EDAD (agrupación)": 49
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 2,
+      "EDAD (agrupación)": 47
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 3,
+      "EDAD (agrupación)": 46
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 1,
+      "EDAD (agrupación)": 44
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 1,
+      "EDAD (agrupación)": 43
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 3,
+      "EDAD (agrupación)": 42
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 1,
+      "EDAD (agrupación)": 41
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 3,
+      "EDAD (agrupación)": 40
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 2,
+      "EDAD (agrupación)": 39
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 6,
+      "EDAD (agrupación)": 38
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 1,
+      "EDAD (agrupación)": 37
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 3,
+      "EDAD (agrupación)": 36
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 4,
+      "EDAD (agrupación)": 35
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 11,
+      "EDAD (agrupación)": 34
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 11,
+      "EDAD (agrupación)": 33
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 18,
+      "EDAD (agrupación)": 32
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 8,
+      "EDAD (agrupación)": 31
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 20,
+      "EDAD (agrupación)": 30
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 26,
+      "EDAD (agrupación)": 29
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 29,
+      "EDAD (agrupación)": 28
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 40,
+      "EDAD (agrupación)": 27
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 44,
+      "EDAD (agrupación)": 26
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 63,
+      "EDAD (agrupación)": 25
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 80,
+      "EDAD (agrupación)": 24
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 91,
+      "EDAD (agrupación)": 23
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 94,
+      "EDAD (agrupación)": 22
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 103,
+      "EDAD (agrupación)": 21
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 116,
+      "EDAD (agrupación)": 20
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 135,
+      "EDAD (agrupación)": 19
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 157,
+      "EDAD (agrupación)": 18
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 103,
+      "EDAD (agrupación)": 17
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 31,
+      "EDAD (agrupación)": 16
+    },
+    {
+      "_zone": "111",
+      "REC(EDAD)": 0,
+      "EDAD (agrupación)": 0
+    }
+  ],
+  "mapa_departamentos": [
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Vichada",
+      "SUMA(Desertores)": 0,
+      "AGR(Matriculados)": 14,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Vaupés",
+      "SUMA(Desertores)": 7,
+      "AGR(Matriculados)": 37,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Valle Del Cauca",
+      "SUMA(Desertores)": 20,
+      "AGR(Matriculados)": 345,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Tolima",
+      "SUMA(Desertores)": 14,
+      "AGR(Matriculados)": 312,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Sucre",
+      "SUMA(Desertores)": 3,
+      "AGR(Matriculados)": 35,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Santander",
+      "SUMA(Desertores)": 20,
+      "AGR(Matriculados)": 390,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Risaralda",
+      "SUMA(Desertores)": 5,
+      "AGR(Matriculados)": 45,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Quindío",
+      "SUMA(Desertores)": 4,
+      "AGR(Matriculados)": 55,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Putumayo",
+      "SUMA(Desertores)": 20,
+      "AGR(Matriculados)": 491,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Norte de Santander",
+      "SUMA(Desertores)": 24,
+      "AGR(Matriculados)": 325,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Nariño",
+      "SUMA(Desertores)": 66,
+      "AGR(Matriculados)": 1040,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Meta",
+      "SUMA(Desertores)": 17,
+      "AGR(Matriculados)": 386,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Magdalena",
+      "SUMA(Desertores)": 1,
+      "AGR(Matriculados)": 40,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "La Guajira",
+      "SUMA(Desertores)": 6,
+      "AGR(Matriculados)": 72,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Huila",
+      "SUMA(Desertores)": 19,
+      "AGR(Matriculados)": 369,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Guaviare",
+      "SUMA(Desertores)": 0,
+      "AGR(Matriculados)": 102,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Guainía",
+      "SUMA(Desertores)": 2,
+      "AGR(Matriculados)": 30,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Cundinamarca",
+      "SUMA(Desertores)": 174,
+      "AGR(Matriculados)": 3820,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Córdoba",
+      "SUMA(Desertores)": 12,
+      "AGR(Matriculados)": 173,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Chocó",
+      "SUMA(Desertores)": 0,
+      "AGR(Matriculados)": 14,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Cesar",
+      "SUMA(Desertores)": 9,
+      "AGR(Matriculados)": 151,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Cauca",
+      "SUMA(Desertores)": 11,
+      "AGR(Matriculados)": 146,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Casanare",
+      "SUMA(Desertores)": 31,
+      "AGR(Matriculados)": 806,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Caquetá",
+      "SUMA(Desertores)": 3,
+      "AGR(Matriculados)": 100,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Caldas",
+      "SUMA(Desertores)": 3,
+      "AGR(Matriculados)": 58,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Boyacá",
+      "SUMA(Desertores)": 53,
+      "AGR(Matriculados)": 1499,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Bolívar",
+      "SUMA(Desertores)": 2,
+      "AGR(Matriculados)": 113,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Bogotá, D.C.",
+      "SUMA(Desertores)": 1048,
+      "AGR(Matriculados)": 18981,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Atlántico",
+      "SUMA(Desertores)": 3,
+      "AGR(Matriculados)": 79,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Archipiélago de San Andrés, Providencia y Santa Catalina",
+      "SUMA(Desertores)": 18,
+      "AGR(Matriculados)": 240,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Arauca",
+      "SUMA(Desertores)": 21,
+      "AGR(Matriculados)": 526,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Antioquia",
+      "SUMA(Desertores)": 7,
+      "AGR(Matriculados)": 196,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    },
+    {
+      "_zone": "162",
+      "MAP_DEPARTAMENTO_PROCEDENCIA (copia)": "Amazonas",
+      "SUMA(Desertores)": 13,
+      "AGR(Matriculados)": 276,
+      "Latitud (generado)": null,
+      "Longitud (generado)": null,
+      "AGR(Tasa deserción)": null
+    }
+  ],
+  "por_subacceso": [
+    {
+      "_zone": "180",
+      "SUBACCESO": "Regular de pregrado",
+      "SUMA(Desertores)": 1361,
+      "AGR(Matriculados)": 25981,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1361
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PEAMA - ORINOQUÍA - PROGRAMA ESPECIAL DE ADMISIÓN Y MOVILIDAD ACADÉMICA",
+      "SUMA(Desertores)": 43,
+      "AGR(Matriculados)": 1182,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 43
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PAES - INDÍGENA",
+      "SUMA(Desertores)": 40,
+      "AGR(Matriculados)": 719,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 40
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "VÍCTIMAS DEL CONFLICTO ARMADO EN COLOMBIA",
+      "SUMA(Desertores)": 38,
+      "AGR(Matriculados)": 398,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 38
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PEAMA - TUMACO - PROGRAMA ESPECIAL DE ADMISIÓN Y MOVILIDAD ACADÉMICA",
+      "SUMA(Desertores)": 34,
+      "AGR(Matriculados)": 597,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 34
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PEAMA - AMAZONÍA - PROGRAMA ESPECIAL DE ADMISIÓN Y MOVILIDAD ACADÉMICA",
+      "SUMA(Desertores)": 32,
+      "AGR(Matriculados)": 634,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 32
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PEAMA - BOGOTÁ-SUMAPAZ PROGRAMA ESPECIAL DE ADMISIÓN Y MOVILIDAD ACADÉMICA",
+      "SUMA(Desertores)": 16,
+      "AGR(Matriculados)": 269,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 16
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PEAMA - CARIBE - PROGRAMA ESPECIAL DE ADMISIÓN Y MOVILIDAD ACADÉMICA",
+      "SUMA(Desertores)": 14,
+      "AGR(Matriculados)": 217,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 14
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PAES - Población negra, afrocolombiana, palenquera y raizal",
+      "SUMA(Desertores)": 14,
+      "AGR(Matriculados)": 244,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 14
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PAET- BOGOTÁ-OTROS MUNICIPIOS-PROG. ADMISIÓN ESPECIAL ENFOQUE TERRITORIAL",
+      "SUMA(Desertores)": 12,
+      "AGR(Matriculados)": 62,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 12
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PAET - PALMIRA - PROGRAMA ADMISIÓN ESPECIAL ENFOQUE TERRITORIAL",
+      "SUMA(Desertores)": 10,
+      "AGR(Matriculados)": 208,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 10
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PAES - Mejores bachilleres",
+      "SUMA(Desertores)": 8,
+      "AGR(Matriculados)": 292,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 8
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PAET - ORINOQUÍA - PROGRAMA ADMISIÓN ESPECIAL ENFOQUE TERRITORIAL",
+      "SUMA(Desertores)": 4,
+      "AGR(Matriculados)": 110,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 4
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PAET - CARIBE - PROGRAMA ADMISIÓN ESPECIAL ENFOQUE TERRITORIAL",
+      "SUMA(Desertores)": 4,
+      "AGR(Matriculados)": 22,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 4
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PAES - Municipios vulnerables",
+      "SUMA(Desertores)": 4,
+      "AGR(Matriculados)": 106,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 4
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PAET - MEDELLÍN - PROGRAMA ADMISIÓN ESPECIAL ENFOQUE TERRITORIAL",
+      "SUMA(Desertores)": 2,
+      "AGR(Matriculados)": 140,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 2
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PAET - TUMACO - PROGRAMA ADMISIÓN ESPECIAL ENFOQUE TERRITORIAL",
+      "SUMA(Desertores)": 1,
+      "AGR(Matriculados)": 82,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PAET - AMAZONÍA - PROGRAMA ADMISIÓN ESPECIAL ENFOQUE TERRITORIAL",
+      "SUMA(Desertores)": 1,
+      "AGR(Matriculados)": 22,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 1
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PROGRAMA DE ADMISIÓN ESPECIAL PARA LOS PROGRAMAS DE PREGRADO SEDE LA PAZ",
+      "SUMA(Desertores)": 0,
+      "AGR(Matriculados)": 12,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 0
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "DOBLE TITULACIÓN PREGRADO - CONVENIO",
+      "SUMA(Desertores)": 0,
+      "AGR(Matriculados)": 3,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 0
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "COMPROMISO ACADÉMICO ENFERMERÍA BOGOTÁ-TUMACO",
+      "SUMA(Desertores)": 0,
+      "AGR(Matriculados)": 1,
+      "Nombres de medidas": "Desertores",
+      "SUMA(Desvinculados)": 0
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "Regular de pregrado",
+      "SUMA(Desertores)": 2469,
+      "AGR(Matriculados)": 25981,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 2469
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PEAMA - ORINOQUÍA - PROGRAMA ESPECIAL DE ADMISIÓN Y MOVILIDAD ACADÉMICA",
+      "SUMA(Desertores)": 72,
+      "AGR(Matriculados)": 1182,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 72
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PAES - INDÍGENA",
+      "SUMA(Desertores)": 92,
+      "AGR(Matriculados)": 719,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 92
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "VÍCTIMAS DEL CONFLICTO ARMADO EN COLOMBIA",
+      "SUMA(Desertores)": 55,
+      "AGR(Matriculados)": 398,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 55
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PEAMA - TUMACO - PROGRAMA ESPECIAL DE ADMISIÓN Y MOVILIDAD ACADÉMICA",
+      "SUMA(Desertores)": 64,
+      "AGR(Matriculados)": 597,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 64
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PEAMA - AMAZONÍA - PROGRAMA ESPECIAL DE ADMISIÓN Y MOVILIDAD ACADÉMICA",
+      "SUMA(Desertores)": 63,
+      "AGR(Matriculados)": 634,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 63
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PEAMA - BOGOTÁ-SUMAPAZ PROGRAMA ESPECIAL DE ADMISIÓN Y MOVILIDAD ACADÉMICA",
+      "SUMA(Desertores)": 27,
+      "AGR(Matriculados)": 269,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 27
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PEAMA - CARIBE - PROGRAMA ESPECIAL DE ADMISIÓN Y MOVILIDAD ACADÉMICA",
+      "SUMA(Desertores)": 29,
+      "AGR(Matriculados)": 217,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 29
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PAES - Población negra, afrocolombiana, palenquera y raizal",
+      "SUMA(Desertores)": 27,
+      "AGR(Matriculados)": 244,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 27
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PAET- BOGOTÁ-OTROS MUNICIPIOS-PROG. ADMISIÓN ESPECIAL ENFOQUE TERRITORIAL",
+      "SUMA(Desertores)": 1,
+      "AGR(Matriculados)": 62,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 1
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PAET - PALMIRA - PROGRAMA ADMISIÓN ESPECIAL ENFOQUE TERRITORIAL",
+      "SUMA(Desertores)": 25,
+      "AGR(Matriculados)": 208,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 25
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PAES - Mejores bachilleres",
+      "SUMA(Desertores)": 13,
+      "AGR(Matriculados)": 292,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 13
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PAET - ORINOQUÍA - PROGRAMA ADMISIÓN ESPECIAL ENFOQUE TERRITORIAL",
+      "SUMA(Desertores)": 8,
+      "AGR(Matriculados)": 110,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 8
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PAET - CARIBE - PROGRAMA ADMISIÓN ESPECIAL ENFOQUE TERRITORIAL",
+      "SUMA(Desertores)": 3,
+      "AGR(Matriculados)": 22,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 3
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PAES - Municipios vulnerables",
+      "SUMA(Desertores)": 8,
+      "AGR(Matriculados)": 106,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 8
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PAET - MEDELLÍN - PROGRAMA ADMISIÓN ESPECIAL ENFOQUE TERRITORIAL",
+      "SUMA(Desertores)": 8,
+      "AGR(Matriculados)": 140,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 8
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PAET - TUMACO - PROGRAMA ADMISIÓN ESPECIAL ENFOQUE TERRITORIAL",
+      "SUMA(Desertores)": 6,
+      "AGR(Matriculados)": 82,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 6
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PAET - AMAZONÍA - PROGRAMA ADMISIÓN ESPECIAL ENFOQUE TERRITORIAL",
+      "SUMA(Desertores)": 3,
+      "AGR(Matriculados)": 22,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 3
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "PROGRAMA DE ADMISIÓN ESPECIAL PARA LOS PROGRAMAS DE PREGRADO SEDE LA PAZ",
+      "SUMA(Desertores)": 1,
+      "AGR(Matriculados)": 12,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 1
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "DOBLE TITULACIÓN PREGRADO - CONVENIO",
+      "SUMA(Desertores)": 2,
+      "AGR(Matriculados)": 3,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 2
+    },
+    {
+      "_zone": "180",
+      "SUBACCESO": "COMPROMISO ACADÉMICO ENFERMERÍA BOGOTÁ-TUMACO",
+      "SUMA(Desertores)": 1,
+      "AGR(Matriculados)": 1,
+      "Nombres de medidas": "Desvinculados",
+      "SUMA(Desvinculados)": 1
+    }
+  ],
+  "zona_317": [
+    {
+      "_zone": "317",
+      "AGR(periodo_elegido)": "en 2025"
+    }
+  ],
+  "zona_371": [
+    {
+      "_zone": "371",
+      "AGR(periodo_elegido)": "de 2015 a 2025"
+    }
+  ],
+  "matriculas_por_periodo": [
+    {
+      "_zone": "393",
+      "MATRICULAS": 20,
+      "SUMA(Desvinculados)": 15,
+      "SUMA(Desertores)": 5,
+      "AGR(Matriculados)": 61
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 19,
+      "SUMA(Desvinculados)": 18,
+      "SUMA(Desertores)": 6,
+      "AGR(Matriculados)": 106
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 18,
+      "SUMA(Desvinculados)": 32,
+      "SUMA(Desertores)": 6,
+      "AGR(Matriculados)": 167
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 17,
+      "SUMA(Desvinculados)": 27,
+      "SUMA(Desertores)": 8,
+      "AGR(Matriculados)": 226
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 16,
+      "SUMA(Desvinculados)": 46,
+      "SUMA(Desertores)": 15,
+      "AGR(Matriculados)": 323
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 15,
+      "SUMA(Desvinculados)": 67,
+      "SUMA(Desertores)": 10,
+      "AGR(Matriculados)": 541
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 14,
+      "SUMA(Desvinculados)": 79,
+      "SUMA(Desertores)": 18,
+      "AGR(Matriculados)": 685
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 13,
+      "SUMA(Desvinculados)": 70,
+      "SUMA(Desertores)": 22,
+      "AGR(Matriculados)": 1008
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 12,
+      "SUMA(Desvinculados)": 78,
+      "SUMA(Desertores)": 21,
+      "AGR(Matriculados)": 1415
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 11,
+      "SUMA(Desvinculados)": 87,
+      "SUMA(Desertores)": 22,
+      "AGR(Matriculados)": 1781
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 10,
+      "SUMA(Desvinculados)": 117,
+      "SUMA(Desertores)": 42,
+      "AGR(Matriculados)": 1988
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 9,
+      "SUMA(Desvinculados)": 114,
+      "SUMA(Desertores)": 41,
+      "AGR(Matriculados)": 2038
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 8,
+      "SUMA(Desvinculados)": 128,
+      "SUMA(Desertores)": 58,
+      "AGR(Matriculados)": 2146
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 7,
+      "SUMA(Desvinculados)": 128,
+      "SUMA(Desertores)": 44,
+      "AGR(Matriculados)": 2080
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 6,
+      "SUMA(Desvinculados)": 165,
+      "SUMA(Desertores)": 73,
+      "AGR(Matriculados)": 2391
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 5,
+      "SUMA(Desvinculados)": 189,
+      "SUMA(Desertores)": 93,
+      "AGR(Matriculados)": 2351
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 4,
+      "SUMA(Desvinculados)": 230,
+      "SUMA(Desertores)": 108,
+      "AGR(Matriculados)": 2779
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 3,
+      "SUMA(Desvinculados)": 292,
+      "SUMA(Desertores)": 131,
+      "AGR(Matriculados)": 2661
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 2,
+      "SUMA(Desvinculados)": 410,
+      "SUMA(Desertores)": 181,
+      "AGR(Matriculados)": 2906
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 1,
+      "SUMA(Desvinculados)": 617,
+      "SUMA(Desertores)": 297,
+      "AGR(Matriculados)": 3073
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 20,
+      "SUMA(Desvinculados)": 15,
+      "SUMA(Desertores)": 61,
+      "AGR(Matriculados)": 61
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 19,
+      "SUMA(Desvinculados)": 18,
+      "SUMA(Desertores)": 106,
+      "AGR(Matriculados)": 106
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 18,
+      "SUMA(Desvinculados)": 32,
+      "SUMA(Desertores)": 167,
+      "AGR(Matriculados)": 167
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 17,
+      "SUMA(Desvinculados)": 27,
+      "SUMA(Desertores)": 226,
+      "AGR(Matriculados)": 226
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 16,
+      "SUMA(Desvinculados)": 46,
+      "SUMA(Desertores)": 323,
+      "AGR(Matriculados)": 323
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 15,
+      "SUMA(Desvinculados)": 67,
+      "SUMA(Desertores)": 541,
+      "AGR(Matriculados)": 541
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 14,
+      "SUMA(Desvinculados)": 79,
+      "SUMA(Desertores)": 685,
+      "AGR(Matriculados)": 685
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 13,
+      "SUMA(Desvinculados)": 70,
+      "SUMA(Desertores)": 1008,
+      "AGR(Matriculados)": 1008
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 12,
+      "SUMA(Desvinculados)": 78,
+      "SUMA(Desertores)": 1415,
+      "AGR(Matriculados)": 1415
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 11,
+      "SUMA(Desvinculados)": 87,
+      "SUMA(Desertores)": 1781,
+      "AGR(Matriculados)": 1781
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 10,
+      "SUMA(Desvinculados)": 117,
+      "SUMA(Desertores)": 1988,
+      "AGR(Matriculados)": 1988
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 9,
+      "SUMA(Desvinculados)": 114,
+      "SUMA(Desertores)": 2038,
+      "AGR(Matriculados)": 2038
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 8,
+      "SUMA(Desvinculados)": 128,
+      "SUMA(Desertores)": 2146,
+      "AGR(Matriculados)": 2146
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 7,
+      "SUMA(Desvinculados)": 128,
+      "SUMA(Desertores)": 2080,
+      "AGR(Matriculados)": 2080
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 6,
+      "SUMA(Desvinculados)": 165,
+      "SUMA(Desertores)": 2391,
+      "AGR(Matriculados)": 2391
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 5,
+      "SUMA(Desvinculados)": 189,
+      "SUMA(Desertores)": 2351,
+      "AGR(Matriculados)": 2351
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 4,
+      "SUMA(Desvinculados)": 230,
+      "SUMA(Desertores)": 2779,
+      "AGR(Matriculados)": 2779
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 3,
+      "SUMA(Desvinculados)": 292,
+      "SUMA(Desertores)": 2661,
+      "AGR(Matriculados)": 2661
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 2,
+      "SUMA(Desvinculados)": 410,
+      "SUMA(Desertores)": 2906,
+      "AGR(Matriculados)": 2906
+    },
+    {
+      "_zone": "393",
+      "MATRICULAS": 1,
+      "SUMA(Desvinculados)": 617,
+      "SUMA(Desertores)": 3073,
+      "AGR(Matriculados)": 3073
+    }
+  ]
+}
