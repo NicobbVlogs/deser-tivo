@@ -27,7 +27,7 @@
 
     <h2>Perfil del estudiante</h2>
 
-    <form>
+    <form class="tarjeta">
         <div class="question">
             <label for="sel-programa">Programa curricular</label>
             <select id="sel-programa" bind:value={perfil.programa}>
@@ -136,10 +136,14 @@
         margin: 0 0 0.5rem;
     }
 
-    form {
+    .tarjeta {
+        background: #B069DB;
+        color: #fff;
+        border-radius: 0.75rem;
+        padding: 1.25rem 1.5rem;
         display: flex;
         flex-direction: column;
-        gap: 0.5rem;
+        gap: 0.6rem;
     }
 
     .question {
