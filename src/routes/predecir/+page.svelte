@@ -134,6 +134,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        p {
+            margin: 0.2rem;
+        }
     }
 
     form {
