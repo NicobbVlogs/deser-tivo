@@ -1,5 +1,7 @@
 <script lang="ts">
     import { fade, slide } from "svelte/transition";
+    import dinero from "$lib/assets/RESULTADOS/DINERO.jpeg";
+    import loro from "$lib/assets/RESULTADOS/LORO.jpeg";
 
     // ── Sección A ────────────────────────────────────────────────────────────
     let papa = $state(3.5);
@@ -216,13 +218,13 @@
                     <label>Promedio (P.A.P.A.): <strong>{papa.toFixed(1)}</strong></label>
                     <input type="range" min="0" max="5" step="0.1" bind:value={papa} />
                 </div>
-                <div class="campo fila">
-                    <div class="sub-campo">
-                        <label>Créditos aprobados</label>
+                <div class="campo creditos-fila">
+                    <div class="credito-item">
+                        <label>Aprobados</label>
                         <input type="number" min="0" max="20" bind:value={creditosAprobados} />
                     </div>
-                    <div class="sub-campo">
-                        <label>Créditos matriculados</label>
+                    <div class="credito-item">
+                        <label>Matriculados</label>
                         <input type="number" min="1" max="20" bind:value={creditosMatriculados} />
                     </div>
                 </div>
@@ -303,6 +305,7 @@
                         <option>{"> 2 horas"}</option>
                     </select>
                 </div>
+                <img class="seccion-img" src={dinero} alt="Dinero" />
             </div>
         </details>
 
@@ -330,6 +333,7 @@
                         <option>Más de 3 veces</option>
                     </select>
                 </div>
+                <img class="seccion-img" src={loro} alt="Loro" />
             </div>
         </details>
 
@@ -554,6 +558,45 @@
     .campo.fila { flex-direction: row; gap: 0.6rem; }
 
     .sub-campo { flex: 1; display: flex; flex-direction: column; gap: 0.2rem; }
+
+    /* Créditos: dos inputs pequeños centrados */
+    .creditos-fila {
+        flex-direction: row !important;
+        justify-content: center;
+        gap: 1.25rem;
+    }
+
+    .credito-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.2rem;
+    }
+
+    .credito-item label { font-size: 0.78rem; opacity: 0.85; text-align: center; }
+
+    .credito-item input[type="number"] {
+        width: 3.5rem;
+        text-align: center;
+        background: rgba(255 255 255 / 0.15);
+        color: #fff;
+        border: 1px solid rgba(255 255 255 / 0.3);
+        border-radius: 0.4rem;
+        padding: 0.28rem 0.4rem;
+        font-size: 0.88rem;
+        font-family: inherit;
+    }
+
+    /* Imágenes de sección */
+    .seccion-img {
+        display: block;
+        width: 100%;
+        max-height: 115px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        margin-top: auto;
+        flex-shrink: 0;
+    }
 
     .campo.fila-toggle {
         flex-direction: row;
