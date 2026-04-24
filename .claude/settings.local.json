@@ -19,7 +19,9 @@
       "Bash(gh repo *)",
       "Bash(npm install *)",
       "Bash(bun install *)",
-      "Bash(xargs ls *)"
+      "Bash(xargs ls *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
