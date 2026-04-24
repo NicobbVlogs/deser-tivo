@@ -1,16 +1,19 @@
 <script lang="ts">
     import { TASA_BASE, RIESGO_MAX } from "$lib/modelo";
+    import wake from "$lib/assets/RESULTADOS/WAKE UP.gif";
+    import perrito from "$lib/assets/RESULTADOS/SAQUENME DE AQUI.jpeg";
+    import popozao from "$lib/assets/RESULTADOS/TREME POPAZAO.gif";
 
     const { riesgo }: { riesgo: number } = $props();
 
-    const porcentaje  = $derived(Math.round(riesgo * 100));
-    const base        = Math.round(TASA_BASE * 100);
-    const maxPct      = Math.round(RIESGO_MAX * 100);
-    const diferencia  = $derived(Math.round((riesgo - TASA_BASE) * 100));
+    const porcentaje = $derived(Math.round(riesgo * 100));
+    const base = Math.round(TASA_BASE * 100);
+    const maxPct = Math.round(RIESGO_MAX * 100);
+    const diferencia = $derived(Math.round((riesgo - TASA_BASE) * 100));
 
     // Posiciones en la barra relativa (0 → máx alcanzable)
     const barraRelleno = $derived(Math.min(100, (riesgo / RIESGO_MAX) * 100));
-    const barraMarca   = Math.min(100, (TASA_BASE / RIESGO_MAX) * 100);
+    const barraMarca = Math.min(100, (TASA_BASE / RIESGO_MAX) * 100);
 </script>
 
 <div class="resultado">
@@ -22,20 +25,28 @@
     <div class="barra-fondo">
         <div class="barra-relleno" style="width: {barraRelleno}%"></div>
         <!-- Marca del promedio UNAL sobre la escala relativa -->
-        <div class="barra-marca" style="left: {barraMarca}%" title="promedio UNAL ({base} %)"></div>
+        <div
+            class="barra-marca"
+            style="left: {barraMarca}%"
+            title="promedio UNAL ({base} %)"
+        ></div>
     </div>
     <div class="barra-etiquetas">
         <span>0 %</span>
-        <span class="marca-label" style="left: {barraMarca}%">prom. {base} %</span>
+        <span class="marca-label" style="left: {barraMarca}%"
+            >prom. {base} %</span
+        >
         <span>máx. {maxPct} %</span>
     </div>
 
     <!-- Diferencia en puntos porcentuales -->
     <p class="comparativa">
         {#if diferencia > 0}
-            <span class="sube">+{diferencia} pp</span> respecto al promedio UNAL ({base} %)
+            <span class="sube">+{diferencia} pp</span> respecto al promedio UNAL
+            ({base} %)
         {:else if diferencia < 0}
-            <span class="baja">{diferencia} pp</span> respecto al promedio UNAL ({base} %)
+            <span class="baja">{diferencia} pp</span> respecto al promedio UNAL
+            ({base} %)
         {:else}
             Igual al promedio UNAL ({base} %)
         {/if}
@@ -43,10 +54,19 @@
 
     {#if riesgo > 0.09}
         <p class="nivel high">Riesgo alto</p>
-    {:else if riesgo > 0.065}
+        <img alt="Perrito triste" src={perrito} />
+    {:else if riesgo > 0.07}
         <p class="nivel moderate">Riesgo moderado</p>
+        <img
+            alt="Señor en el piso con un reloj sobre él, intentándolo despertar"
+            src={wake}
+        />
     {:else}
         <p class="nivel low">Riesgo bajo</p>
+        <img
+            alt="Señor en el piso con un reloj sobre él, intentándolo despertar"
+            src={popozao}
+        />
     {/if}
 </div>
 
@@ -55,7 +75,7 @@
         text-align: center;
         padding: 1.5rem;
         border-radius: 0.75rem;
-        background: #B069DB;
+        background: #b069db;
         color: #fff;
         width: 100%;
     }
@@ -130,8 +150,20 @@
         opacity: 0.9;
     }
 
-    .sube { font-weight: 700; }
-    .baja { font-weight: 700; }
+    .sube {
+        font-weight: 700;
+    }
+    .baja {
+        font-weight: 700;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        margin-top: 1rem;
+        border-radius: 1rem;
+        max-width: 80%;
+    }
 
     .nivel {
         display: inline-block;
