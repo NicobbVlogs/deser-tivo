@@ -401,63 +401,56 @@
                 </div>
             </div>
 
-            <!-- Cuerpo: dos columnas -->
-            <div class="resultado-cuerpo">
-
-                <!-- Izquierda: factores + señales -->
-                <div class="resultado-col">
-                    {#if factores}
-                    <div class="bloque">
-                        <h4>Factores de Riesgo</h4>
-                        {#each [
-                            { nombre: "Rendimiento académico",     valor: factores.rendimiento },
-                            { nombre: "Compromiso con el estudio", valor: factores.compromiso  },
-                            { nombre: "Situación socioeconómica",  valor: factores.socioeco    },
-                            { nombre: "Bienestar emocional",       valor: factores.bienestar   },
-                            { nombre: "Red de apoyo personal",     valor: factores.apoyo       },
-                        ] as f}
-                            <div class="factor">
-                                <div class="factor-cabecera">
-                                    <span>{f.nombre}</span>
-                                    <span style="color: {colorFactor(f.valor)}; font-weight:600">{f.valor}</span>
-                                </div>
-                                <div class="factor-barra-fondo">
-                                    <div class="factor-barra-relleno" style="width:{f.valor}%; background:{colorFactor(f.valor)}"></div>
-                                </div>
-                            </div>
-                        {/each}
-                    </div>
-                    {/if}
-                </div>
-
-                <!-- Derecha: intervención + señales -->
-                <div class="resultado-col">
-                    {#if intervencion}
-                    <div class="bloque">
-                        <h4>Intervención Recomendada</h4>
-                        <div class="intervencion">
-                            <div class="intervencion-tipo">
-                                <span class="intervencion-icono">{intervencion.icono}</span>
-                                <span class="intervencion-nombre">{intervencion.tipo}</span>
-                            </div>
-                            <p class="intervencion-texto">{intervencion.texto}</p>
-                            <span class="prioridad">⚡ {intervencion.prioridad}</span>
+            <!-- Barras de factores — ancho completo -->
+            {#if factores}
+            <div class="bloque">
+                <h4>Factores de Riesgo Detectados</h4>
+                {#each [
+                    { nombre: "Rendimiento académico",     valor: factores.rendimiento },
+                    { nombre: "Compromiso con el estudio", valor: factores.compromiso  },
+                    { nombre: "Situación socioeconómica",  valor: factores.socioeco    },
+                    { nombre: "Bienestar emocional",       valor: factores.bienestar   },
+                    { nombre: "Red de apoyo personal",     valor: factores.apoyo       },
+                ] as f}
+                    <div class="factor">
+                        <div class="factor-cabecera">
+                            <span>{f.nombre}</span>
+                            <span style="color: {colorFactor(f.valor)}; font-weight:600">{f.valor}</span>
+                        </div>
+                        <div class="factor-barra-fondo">
+                            <div class="factor-barra-relleno" style="width:{f.valor}%; background:{colorFactor(f.valor)}"></div>
                         </div>
                     </div>
-                    {/if}
+                {/each}
+            </div>
+            {/if}
 
-                    {#if señales.length > 0}
-                    <div class="bloque">
-                        <h4>Señales Clave</h4>
-                        <ul class="señales">
-                            {#each señales as s}
-                                <li>⚠ {s}</li>
-                            {/each}
-                        </ul>
+            <!-- Intervención + señales — dos columnas debajo -->
+            <div class="resultado-inferior">
+                {#if intervencion}
+                <div class="bloque">
+                    <h4>Intervención Recomendada</h4>
+                    <div class="intervencion">
+                        <div class="intervencion-tipo">
+                            <span class="intervencion-icono">{intervencion.icono}</span>
+                            <span class="intervencion-nombre">{intervencion.tipo}</span>
+                        </div>
+                        <p class="intervencion-texto">{intervencion.texto}</p>
+                        <span class="prioridad">⚡ {intervencion.prioridad}</span>
                     </div>
-                    {/if}
                 </div>
+                {/if}
 
+                {#if señales.length > 0}
+                <div class="bloque">
+                    <h4>Señales Clave</h4>
+                    <ul class="señales">
+                        {#each señales as s}
+                            <li>⚠ {s}</li>
+                        {/each}
+                    </ul>
+                </div>
+                {/if}
             </div>
 
             <p class="disclaimer">
@@ -594,7 +587,7 @@
         font-family: inherit;
     }
 
-    /* Imágenes de sección */
+    /* Imágenes de sección — centradas en el espacio restante */
     .seccion-img {
         display: block;
         max-width: 80%;
@@ -602,7 +595,7 @@
         width: auto;
         height: auto;
         border-radius: 0.5rem;
-        margin: auto auto 0;
+        margin: auto;
         flex-shrink: 0;
     }
 
@@ -815,8 +808,8 @@
         opacity: 0.55;
     }
 
-    /* Cuerpo dos columnas */
-    .resultado-cuerpo {
+    /* Intervención + señales: dos columnas debajo de las barras */
+    .resultado-inferior {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
@@ -824,10 +817,8 @@
     }
 
     @media (max-width: 500px) {
-        .resultado-cuerpo { grid-template-columns: 1fr; }
+        .resultado-inferior { grid-template-columns: 1fr; }
     }
-
-    .resultado-col { display: flex; flex-direction: column; gap: 0.9rem; }
 
     /* Bloques */
     .bloque { display: flex; flex-direction: column; gap: 0.45rem; }
@@ -841,19 +832,19 @@
     }
 
     /* Barras de factores */
-    .factor { display: flex; flex-direction: column; gap: 0.18rem; }
+    .factor { display: flex; flex-direction: column; gap: 0.25rem; margin-bottom: 0.2rem; }
 
     .factor-cabecera {
         display: flex;
         justify-content: space-between;
-        font-size: 0.78rem;
+        font-size: 0.82rem;
         opacity: 0.9;
     }
 
     .factor-barra-fondo {
         background: rgba(255 255 255 / 0.2);
         border-radius: 1rem;
-        height: 0.38rem;
+        height: 0.6rem;
         overflow: hidden;
     }
 
