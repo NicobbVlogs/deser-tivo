@@ -18,7 +18,8 @@
       "Bash(curl -s http://localhost:5173/predecir)",
       "Bash(gh repo *)",
       "Bash(npm install *)",
-      "Bash(bun install *)"
+      "Bash(bun install *)",
+      "Bash(xargs ls *)"
     ]
   }
 }

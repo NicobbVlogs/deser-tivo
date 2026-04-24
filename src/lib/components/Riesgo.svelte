@@ -41,9 +41,9 @@
         {/if}
     </p>
 
-    {#if riesgo > 0.12}
+    {#if riesgo > 0.09}
         <p class="nivel high">Riesgo alto</p>
-    {:else if riesgo > 0.07}
+    {:else if riesgo > 0.065}
         <p class="nivel moderate">Riesgo moderado</p>
     {:else}
         <p class="nivel low">Riesgo bajo</p>

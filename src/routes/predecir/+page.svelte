@@ -1,5 +1,6 @@
 <script lang="ts">
     import Riesgo from "$lib/components/Riesgo.svelte";
+    import AlertaTemprana from "$lib/components/AlertaTemprana.svelte";
     import { predecir, OPCIONES, type PerfilEstudiante } from "$lib/modelo";
     import { fade } from "svelte/transition";
 
@@ -17,6 +18,7 @@
     );
 
     const riesgo = $derived(completo ? predecir(perfil) : null);
+    const esAlto = $derived(riesgo !== null && riesgo > 0.09);
 </script>
 
 <div transition:fade={{ duration: 150 }} id="container">
@@ -119,6 +121,12 @@
         </p>
     </details>
 </div>
+
+{#if esAlto}
+    <div transition:fade={{ duration: 300 }}>
+        <AlertaTemprana />
+    </div>
+{/if}
 
 <style>
     #container {
