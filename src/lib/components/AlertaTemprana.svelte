@@ -305,7 +305,9 @@
                         <option>{"> 2 horas"}</option>
                     </select>
                 </div>
-                <img class="seccion-img" src={dinero} alt="Dinero" />
+                <div class="img-wrap">
+                    <img class="seccion-img" src={dinero} alt="Dinero" />
+                </div>
             </div>
         </details>
 
@@ -333,7 +335,9 @@
                         <option>Más de 3 veces</option>
                     </select>
                 </div>
-                <img class="seccion-img" src={loro} alt="Loro" />
+                <div class="img-wrap">
+                    <img class="seccion-img" src={loro} alt="Loro" />
+                </div>
             </div>
         </details>
 
@@ -587,7 +591,16 @@
         font-family: inherit;
     }
 
-    /* Imágenes de sección — centradas en el espacio restante */
+    /* Contenedor que centra la imagen en el espacio sobrante */
+    .img-wrap {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 0;
+        padding: 0.4rem 0;
+    }
+
     .seccion-img {
         display: block;
         max-width: 80%;
@@ -595,8 +608,6 @@
         width: auto;
         height: auto;
         border-radius: 0.5rem;
-        margin: auto;
-        flex-shrink: 0;
     }
 
     .campo.fila-toggle {
