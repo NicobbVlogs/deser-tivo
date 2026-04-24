@@ -190,7 +190,9 @@
     }
 
     function colorFactor(v: number): string {
-        return v >= 66 ? "#e53935" : v >= 36 ? "#f59e0b" : "#43a047";
+        return v >= 66 ? "#1C0035" :   // morado muy oscuro
+               v >= 36 ? "#9C27B0" :   // morado oscuro saturado
+                         "#E1BEE7";    // lavanda claro
     }
 </script>
 
@@ -486,16 +488,18 @@
         margin: 0;
     }
 
-    /* ── Cuadrícula 2×2 ──────────────────────────────────────────────────── */
+    /* ── Cuadrícula 2×2 simétrica ───────────────────────────────────────── */
     .cuadricula {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         gap: 0.65rem;
-        align-items: start;
+        /* Las celdas de cada fila se estiran para igualar la altura */
+        align-items: stretch;
     }
 
     @media (max-width: 600px) {
-        .cuadricula { grid-template-columns: 1fr; }
+        .cuadricula { grid-template-columns: 1fr; grid-template-rows: none; }
     }
 
     /* ── Secciones ───────────────────────────────────────────────────────── */
@@ -504,6 +508,10 @@
         color: #fff;
         border-radius: 0.75rem;
         overflow: hidden;
+        /* Llena la celda del grid completamente */
+        display: flex;
+        flex-direction: column;
+        height: 100%;
     }
 
     .seccion > summary {
@@ -516,6 +524,7 @@
         display: flex;
         align-items: center;
         gap: 0.35rem;
+        flex-shrink: 0;
     }
 
     .seccion > summary::before {
@@ -535,6 +544,8 @@
         flex-direction: column;
         gap: 0.6rem;
         border-top: 1px solid rgba(255 255 255 / 0.15);
+        /* Se expande para llenar el alto de la sección */
+        flex: 1;
     }
 
     .campo { display: flex; flex-direction: column; gap: 0.2rem; }
