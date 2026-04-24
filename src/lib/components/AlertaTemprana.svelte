@@ -590,11 +590,13 @@
     /* Imágenes de sección */
     .seccion-img {
         display: block;
-        width: 100%;
-        max-height: 115px;
-        object-fit: cover;
+        max-width: 100%;
+        max-height: 130px;
+        width: auto;
+        height: auto;
         border-radius: 0.5rem;
         margin-top: auto;
+        align-self: center;
         flex-shrink: 0;
     }
 
