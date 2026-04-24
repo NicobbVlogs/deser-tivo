@@ -27,7 +27,7 @@
         El modelo usa datos reales de UNAL Sede Bogotá (periodo 2025&#8209;2).
     </p>
 
-    <h2>Perfil del estudiante</h2>
+    <h2>Perfil Primario del estudiante</h2>
 
     <form class="tarjeta">
         <div class="question">
@@ -87,7 +87,7 @@
         </div>
     </form>
 
-    <h2>Resultado</h2>
+    <h2>Riesgo Temprano</h2>
 
     {#if riesgo !== null}
         <div transition:fade={{ duration: 200 }}>

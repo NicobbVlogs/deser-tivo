@@ -200,7 +200,7 @@
 
 <section class="alerta-temprana">
     <div class="alerta-header">
-        <h2>Análisis de Alerta Temprana</h2>
+        <h2 class="titulo-ruta">CONSTRUCCIÓN DE RUTA DE TRABAJO</h2>
         <p class="subtexto">
             Formulario ampliado — factores académicos, socioeconómicos y de bienestar.
             Completa el perfil y presiona <strong>Analizar</strong> para ver el desglose.
@@ -480,16 +480,23 @@
         gap: 0.75rem;
     }
 
-    .alerta-header h2 {
+    .alerta-header {
+        margin-bottom: 0.75rem;
+    }
+
+    .titulo-ruta {
         font-family: "Sekuya", serif;
-        letter-spacing: 2px;
-        margin: 0 0 0.3rem;
+        letter-spacing: 3px;
+        font-size: 1.35rem;
+        text-align: center;
+        margin: 0 0 0.4rem;
     }
 
     .subtexto {
         font-size: 0.85rem;
         opacity: 0.65;
         margin: 0;
+        text-align: center;
     }
 
     /* ── Cuadrícula 2×2 simétrica ───────────────────────────────────────── */
@@ -590,13 +597,12 @@
     /* Imágenes de sección */
     .seccion-img {
         display: block;
-        max-width: 100%;
+        max-width: 80%;
         max-height: 130px;
         width: auto;
         height: auto;
         border-radius: 0.5rem;
-        margin-top: auto;
-        align-self: center;
+        margin: auto auto 0;
         flex-shrink: 0;
     }
 
@@ -889,24 +895,28 @@
         align-self: flex-start;
     }
 
-    /* Señales */
+    /* Señales clave: dos por fila */
     .señales {
         list-style: none;
         padding: 0;
         margin: 0;
-        display: flex;
-        flex-direction: column;
-        gap: 0.22rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.3rem 0.75rem;
     }
 
     .señales li {
-        font-size: 0.78rem;
+        font-size: 0.76rem;
         opacity: 0.87;
-        padding: 0.22rem 0;
-        border-bottom: 1px solid rgba(255 255 255 / 0.1);
+        padding: 0.3rem 0.5rem;
+        border-radius: 0.35rem;
+        background: rgba(255 255 255 / 0.1);
+        line-height: 1.4;
     }
 
-    .señales li:last-child { border-bottom: none; }
+    @media (max-width: 500px) {
+        .señales { grid-template-columns: 1fr; }
+    }
 
     /* Disclaimer */
     .disclaimer {
