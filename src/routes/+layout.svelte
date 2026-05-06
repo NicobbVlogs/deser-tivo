@@ -2,6 +2,7 @@
 	import "@fontsource/sekuya";
 	import "@fontsource-variable/ibm-plex-sans";
 
+	import { base } from "$app/paths";
 	import "../default.css";
 	import favicon from "$lib/assets/favicon.svg";
 
@@ -12,7 +13,7 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-<h1>Deser-tiva</h1>
+<a href="{base}/" class="site-title"><h1>Deser-tiva</h1></a>
 
 <nav>
 	<a href="predecir" class="part-btn">
@@ -28,6 +29,12 @@
 {@render children()}
 
 <style>
+	.site-title {
+		text-decoration: none;
+		color: inherit;
+		display: block;
+	}
+
 	h1 {
 		text-align: center;
 		font-size: min(15vw, 5rem);

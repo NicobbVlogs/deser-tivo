@@ -28,7 +28,7 @@
 	<section class="hero">
 		<div class="wrap">
 			<p class="eyebrow">Sistema de Alerta Temprana IA – UNAL Bogotá</p>
-			<h2>Reduciendo la Deserción Estudiantil con Inteligencia Artificial</h2>
+			<h2>Reducción de la Deserción Estudiantil con I.A.</h2>
 			<p class="hero-sub">Universidad Nacional de Colombia · Sede Bogotá</p>
 			<p class="hero-body">
 				Cada año, aproximadamente 6.240 estudiantes abandonan sus estudios en la UNAL Bogotá.
