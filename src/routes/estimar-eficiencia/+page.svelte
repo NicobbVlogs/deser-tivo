@@ -461,18 +461,18 @@
 	}
 
 	.fs2 {
-		background: oklch(0.38 0.16 252);
-		box-shadow: 0 3px 14px oklch(0.38 0.16 252 / 0.4);
+		background: oklch(0.4 0.2 284);
+		box-shadow: 0 3px 14px oklch(0.4 0.2 284 / 0.4);
 	}
 
 	.fs3 {
-		background: oklch(0.4 0.19 157);
-		box-shadow: 0 3px 14px oklch(0.4 0.19 157 / 0.4);
+		background: oklch(0.44 0.23 304);
+		box-shadow: 0 3px 14px oklch(0.44 0.23 304 / 0.4);
 	}
 
 	.fs4 {
-		background: oklch(0.33 0.17 148);
-		box-shadow: 0 3px 14px oklch(0.33 0.17 148 / 0.4);
+		background: oklch(0.35 0.2 312);
+		box-shadow: 0 3px 14px oklch(0.35 0.2 312 / 0.4);
 	}
 
 	.farr {
@@ -547,13 +547,13 @@
 	}
 
 	.mcost {
-		background: rgba(239, 68, 68, 0.12);
-		border: 1px solid rgba(239, 68, 68, 0.38);
+		background: oklch(0.35 0.08 350 / 0.2);
+		border: 1px solid oklch(0.6 0.1 350 / 0.4);
 	}
 
 	.msav {
-		background: rgba(34, 197, 94, 0.12);
-		border: 1px solid rgba(34, 197, 94, 0.38);
+		background: oklch(0.55 0.22 304 / 0.18);
+		border: 1px solid oklch(0.7 0.2 304 / 0.4);
 	}
 
 	.ml {
@@ -571,11 +571,11 @@
 	}
 
 	.mcost .mv {
-		color: #f87171;
+		color: oklch(0.82 0.1 5);
 	}
 
 	.msav .mv {
-		color: #4ade80;
+		color: oklch(0.88 0.18 304);
 	}
 
 	.balance {
@@ -591,11 +591,11 @@
 	}
 
 	.balance.pos {
-		color: #4ade80;
+		color: oklch(0.88 0.18 304);
 	}
 
 	.balance.neg {
-		color: #f87171;
+		color: oklch(0.82 0.1 5);
 	}
 
 	/* ── POR QUÉ FUNCIONA ────────────────────────────────────────── */
