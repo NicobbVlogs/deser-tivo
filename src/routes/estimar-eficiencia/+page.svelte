@@ -35,7 +35,6 @@
 				Este proyecto propone un sistema de alerta temprana basado en IA que identifica
 				estudiantes en riesgo y los conecta con el especialista adecuado — antes de que deserten.
 			</p>
-			<a href="#simulador" class="cta">Ver la Simulación ↓</a>
 		</div>
 	</section>
 
@@ -279,7 +278,7 @@
 	}
 
 	.hero h2 {
-		font-size: clamp(1.8rem, 4.5vw, 3rem);
+		font-size: clamp(1.4rem, 3vw, 2rem);
 		color: #fff;
 		max-width: 820px;
 	}
