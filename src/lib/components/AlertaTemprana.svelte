@@ -175,7 +175,11 @@
                 ? "La intención de cambio de carrera sugiere necesidad de orientación vocacional y exploración de opciones dentro de la universidad."
                 : "Se detecta debilitamiento en la red de apoyo personal. Se recomienda vinculación con grupos estudiantiles y mentoría.";
         }
-        const prioridad = nivel === "alto" ? "Intervención inmediata" : nivel === "medio" ? "Seguimiento en 2 semanas" : "Monitoreo preventivo";
+        const prioridad = nivel === "alto"
+            ? "Intervención inmediata"
+            : nivel === "medio"
+                ? "Se solicita seguimiento cada 2 semestres"
+                : "Se solicita seguimiento cada 2 años";
         return { tipo, icono, texto, prioridad };
     });
 

@@ -30,109 +30,100 @@
 
 	type Marker = {
 		v: number;
-		label: string;
+		tag: string;
 		tooltip: string;
 		link?: string;
 		isBase?: boolean;
 		isWarn?: boolean;
-		offsetY?: number;
 	};
 
 	const MARKERS_S1: Marker[] = [
 		{
 			v: 53,
-			label: 'ScienceDirect 53%',
+			tag: 'ScienceDirect',
 			tooltip:
 				'Predicting student dropouts with ML – ScienceDirect 2024. Recall 53.2–54.1% en modelo de deserción residencial universitaria.',
-			link: 'https://www.sciencedirect.com/science/article/pii/S0160791X24000228',
-			offsetY: 26
+			link: 'https://www.sciencedirect.com/science/article/pii/S0160791X24000228'
 		},
 		{
 			v: 58,
-			label: 'UNAL base 58%',
+			tag: 'UNAL base',
 			tooltip: 'Supuesto propio – pendiente de validación piloto',
 			isBase: true
 		},
 		{
 			v: 70,
-			label: 'arXiv 2024 ~70%',
+			tag: 'arXiv 2024',
 			tooltip:
 				'Early Detection of At-Risk Students Using ML – arXiv 2024 (CalState Fullerton). Recall hasta 70% con datos LMS + rendimiento académico.',
-			link: 'https://arxiv.org/abs/2412.09483',
-			offsetY: 26
+			link: 'https://arxiv.org/abs/2412.09483'
 		}
 	];
 
 	const MARKERS_S2: Marker[] = [
 		{
 			v: 78,
-			label: 'Nature 2025 78–86%',
+			tag: 'Nature 2025',
 			tooltip:
 				'Student dropout prediction through ML – Nature Scientific Reports 2025. Precision 78–86% en múltiples modelos universitarios.',
-			link: 'https://www.nature.com/articles/s41598-025-93918-1',
-			offsetY: 26
+			link: 'https://www.nature.com/articles/s41598-025-93918-1'
 		},
 		{
 			v: 80,
-			label: 'UNAL base 80%',
+			tag: 'UNAL base',
 			tooltip: 'Supuesto propio – pendiente de validación piloto',
 			isBase: true
 		},
 		{
 			v: 84,
-			label: 'ScienceDirect 83.9%',
+			tag: 'ScienceDirect',
 			tooltip:
 				'Predicting student dropouts with ML – ScienceDirect 2024. Precision 83.6–83.9% en modelo supervisado.',
-			link: 'https://www.sciencedirect.com/science/article/pii/S0160791X24000228',
-			offsetY: 26
+			link: 'https://www.sciencedirect.com/science/article/pii/S0160791X24000228'
 		}
 	];
 
 	const MARKERS_S3: Marker[] = [
 		{
 			v: 50,
-			label: 'Mohawk min 50%',
+			tag: 'Mohawk',
 			tooltip:
 				'Proactive Advising Retention Outcomes Report – Mohawk College. Tasas de participación en outreach proactivo entre 50–70% según modalidad de contacto.',
-			link: 'https://www.mohawkcollege.ca/sites/default/files/accessible-pdf/cssic/Proactive%20Advising%20Retention%20Outcomes%20Report.%20FINAL.pdf',
-			offsetY: 26
+			link: 'https://www.mohawkcollege.ca/sites/default/files/accessible-pdf/cssic/Proactive%20Advising%20Retention%20Outcomes%20Report.%20FINAL.pdf'
 		},
 		{
 			v: 60,
-			label: 'UNAL base 60%',
+			tag: 'UNAL base',
 			tooltip: 'Supuesto propio – pendiente de validación piloto',
 			isBase: true
 		},
 		{
 			v: 65,
-			label: 'HEQCO 2017 65%',
+			tag: 'HEQCO 2017',
 			tooltip:
 				'Academic Advising: Measuring the Effects of Proactive Interventions – HEQCO Canadá 2017. El 65% de estudiantes en riesgo aceptó participar en sesiones de advising grupal.',
-			link: 'https://heqco.ca/pub/academic-advising-measuring-the-effects-of-proactive-interventions-on-student-outcomes/',
-			offsetY: 26
+			link: 'https://heqco.ca/pub/academic-advising-measuring-the-effects-of-proactive-interventions-on-student-outcomes/'
 		}
 	];
 
 	const MARKERS_S4: Marker[] = [
 		{
 			v: 38,
-			label: 'J.Soc.Work 2013 ~38%',
+			tag: 'J.Soc.Work',
 			tooltip:
 				'Dropout Prevention and Intervention Programs – Journal of Social Work Research 2013 (152 estudios). Tasa de deserción redujo de 21.1% a 13% en grupo de intervención (~38% de casos evitables resueltos).',
-			link: 'https://www.journals.uchicago.edu/doi/abs/10.5243/jsswr.2013.22',
-			offsetY: 26
+			link: 'https://www.journals.uchicago.edu/doi/abs/10.5243/jsswr.2013.22'
 		},
 		{
 			v: 40,
-			label: 'Civitas 2021 +6.4pp',
+			tag: 'Civitas',
 			tooltip:
 				'Effective Academic Advising Strategies – Civitas Learning 2021 (55 universidades). El advising aumentó la retención en +6.36 puntos porcentuales en universidades de 4 años.',
-			link: 'https://www.civitaslearning.com/blog/effective-academic-advising-strategies/',
-			offsetY: 52
+			link: 'https://www.civitaslearning.com/blog/effective-academic-advising-strategies/'
 		},
 		{
 			v: 47,
-			label: '⚠️ UNAL base 47%',
+			tag: 'UNAL base ⚠',
 			tooltip:
 				'Supuesto propio por encima del rango empírico documentado. Requiere validación mediante piloto en la UNAL.',
 			isWarn: true
@@ -266,15 +257,15 @@
 									class:m-warn={m.isWarn}
 									class:edge-left={p < 18}
 									class:edge-right={p > 82}
-									style="left: {p}%; --offset-y: {m.offsetY ?? 0}px"
+									style="left: {p}%"
 									tabindex="0"
 									role="button"
-									aria-label="{m.label}: {m.tooltip}"
+									aria-label="{m.tag} {m.v}%: {m.tooltip}"
 								>
 									<span class="tick" aria-hidden="true"></span>
-									<span class="m-stack">
-										<span class="arrow" aria-hidden="true">▲</span>
-										<span class="m-label">{m.label}</span>
+									<span class="m-content">
+										<span class="m-val">{m.v}%</span>
+										<span class="m-tag">{m.tag}</span>
 									</span>
 									<span class="m-tooltip" role="tooltip">
 										<span class="mt-body">{m.tooltip}</span>
@@ -888,7 +879,7 @@
 
 	.track-wrap {
 		position: relative;
-		padding-bottom: 16px;
+		padding-bottom: 44px;
 	}
 
 	input[type='range'] {
@@ -897,16 +888,19 @@
 		cursor: pointer;
 		height: 5px;
 		display: block;
+		position: relative;
+		z-index: 2;
 	}
 
 	/* ── Capa de marcadores de referencia ────────────────────────── */
 	.markers {
 		position: absolute;
-		top: calc(100% - 4px);
+		top: calc(100% + 6px);
 		left: 0;
 		right: 0;
 		height: 0;
 		pointer-events: none;
+		z-index: 1;
 	}
 
 	.marker {
@@ -919,43 +913,46 @@
 		pointer-events: auto;
 		cursor: help;
 		outline: none;
+		min-width: 24px;
 	}
 
 	.tick {
-		width: 1px;
-		height: 8px;
+		width: 1.5px;
+		height: 7px;
 		background: rgba(255, 255, 255, 0.45);
 		display: block;
+		pointer-events: none;
 	}
 
-	.m-stack {
+	.m-content {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin-top: var(--offset-y, 0px);
-		transition: margin-top 0.2s ease;
+		margin-top: 2px;
+		line-height: 1.1;
 	}
 
-	.arrow {
-		font-size: 6px;
-		line-height: 1;
+	.m-val {
+		font-size: 10px;
+		font-weight: 700;
+		color: rgba(255, 255, 255, 0.78);
+		font-variant-numeric: tabular-nums;
+		letter-spacing: 0.2px;
+	}
+
+	.m-tag {
+		font-size: 8.5px;
 		color: rgba(255, 255, 255, 0.5);
 		margin-top: 1px;
-	}
-
-	.m-label {
-		font-size: 9.5px;
-		line-height: 1.25;
-		letter-spacing: 0.2px;
-		color: rgba(255, 255, 255, 0.62);
-		margin-top: 2px;
 		white-space: nowrap;
-		font-variant-numeric: tabular-nums;
+		letter-spacing: 0.15px;
 	}
 
-	.marker:hover .m-label,
-	.marker:focus-visible .m-label {
-		color: rgba(255, 255, 255, 0.92);
+	.marker:hover .m-val,
+	.marker:hover .m-tag,
+	.marker:focus-visible .m-val,
+	.marker:focus-visible .m-tag {
+		color: rgba(255, 255, 255, 0.95);
 	}
 
 	/* Variante: Modelo base UNAL */
@@ -965,14 +962,14 @@
 		background: oklch(0.78 0.18 304);
 	}
 
-	.m-base .arrow {
-		color: oklch(0.78 0.18 304);
-		font-size: 7px;
+	.m-base .m-val {
+		color: oklch(0.88 0.16 304);
+		font-size: 10.5px;
 	}
 
-	.m-base .m-label {
-		color: oklch(0.86 0.16 304);
-		font-weight: 700;
+	.m-base .m-tag {
+		color: oklch(0.78 0.12 304);
+		font-weight: 600;
 	}
 
 	/* Variante: Warning (amber) */
@@ -982,22 +979,18 @@
 		background: #f59e0b;
 	}
 
-	.m-warn .arrow {
-		color: #f59e0b;
-		font-size: 7px;
+	.m-warn .m-val {
+		color: #fbbf24;
+		font-size: 10.5px;
 	}
 
-	.m-warn .m-label {
-		color: #fbbf24;
-		font-weight: 700;
+	.m-warn .m-tag {
+		color: #fcd34d;
+		font-weight: 600;
 	}
 
 	/* Foco accesible */
-	.marker:focus-visible {
-		outline: none;
-	}
-
-	.marker:focus-visible .m-stack {
+	.marker:focus-visible .m-content {
 		outline: 1.5px solid oklch(0.78 0.18 304);
 		outline-offset: 3px;
 		border-radius: 3px;
