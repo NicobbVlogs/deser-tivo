@@ -28,6 +28,121 @@
 	const URL_ORACLE = 'https://www.oracle.com/latam/cloud/pricing/';
 	const URL_UCC = 'https://repository.ucc.edu.co/server/api/core/bitstreams/bcb6ecca-4377-4cd9-918c-843fc396d8dd/content';
 
+	type Marker = {
+		v: number;
+		label: string;
+		tooltip: string;
+		link?: string;
+		isBase?: boolean;
+		isWarn?: boolean;
+		offsetY?: number;
+	};
+
+	const MARKERS_S1: Marker[] = [
+		{
+			v: 53,
+			label: 'ScienceDirect 53%',
+			tooltip:
+				'Predicting student dropouts with ML – ScienceDirect 2024. Recall 53.2–54.1% en modelo de deserción residencial universitaria.',
+			link: 'https://www.sciencedirect.com/science/article/pii/S0160791X24000228',
+			offsetY: 26
+		},
+		{
+			v: 58,
+			label: 'UNAL base 58%',
+			tooltip: 'Supuesto propio – pendiente de validación piloto',
+			isBase: true
+		},
+		{
+			v: 70,
+			label: 'arXiv 2024 ~70%',
+			tooltip:
+				'Early Detection of At-Risk Students Using ML – arXiv 2024 (CalState Fullerton). Recall hasta 70% con datos LMS + rendimiento académico.',
+			link: 'https://arxiv.org/abs/2412.09483',
+			offsetY: 26
+		}
+	];
+
+	const MARKERS_S2: Marker[] = [
+		{
+			v: 78,
+			label: 'Nature 2025 78–86%',
+			tooltip:
+				'Student dropout prediction through ML – Nature Scientific Reports 2025. Precision 78–86% en múltiples modelos universitarios.',
+			link: 'https://www.nature.com/articles/s41598-025-93918-1',
+			offsetY: 26
+		},
+		{
+			v: 80,
+			label: 'UNAL base 80%',
+			tooltip: 'Supuesto propio – pendiente de validación piloto',
+			isBase: true
+		},
+		{
+			v: 84,
+			label: 'ScienceDirect 83.9%',
+			tooltip:
+				'Predicting student dropouts with ML – ScienceDirect 2024. Precision 83.6–83.9% en modelo supervisado.',
+			link: 'https://www.sciencedirect.com/science/article/pii/S0160791X24000228',
+			offsetY: 26
+		}
+	];
+
+	const MARKERS_S3: Marker[] = [
+		{
+			v: 50,
+			label: 'Mohawk min 50%',
+			tooltip:
+				'Proactive Advising Retention Outcomes Report – Mohawk College. Tasas de participación en outreach proactivo entre 50–70% según modalidad de contacto.',
+			link: 'https://www.mohawkcollege.ca/sites/default/files/accessible-pdf/cssic/Proactive%20Advising%20Retention%20Outcomes%20Report.%20FINAL.pdf',
+			offsetY: 26
+		},
+		{
+			v: 60,
+			label: 'UNAL base 60%',
+			tooltip: 'Supuesto propio – pendiente de validación piloto',
+			isBase: true
+		},
+		{
+			v: 65,
+			label: 'HEQCO 2017 65%',
+			tooltip:
+				'Academic Advising: Measuring the Effects of Proactive Interventions – HEQCO Canadá 2017. El 65% de estudiantes en riesgo aceptó participar en sesiones de advising grupal.',
+			link: 'https://heqco.ca/pub/academic-advising-measuring-the-effects-of-proactive-interventions-on-student-outcomes/',
+			offsetY: 26
+		}
+	];
+
+	const MARKERS_S4: Marker[] = [
+		{
+			v: 38,
+			label: 'J.Soc.Work 2013 ~38%',
+			tooltip:
+				'Dropout Prevention and Intervention Programs – Journal of Social Work Research 2013 (152 estudios). Tasa de deserción redujo de 21.1% a 13% en grupo de intervención (~38% de casos evitables resueltos).',
+			link: 'https://www.journals.uchicago.edu/doi/abs/10.5243/jsswr.2013.22',
+			offsetY: 26
+		},
+		{
+			v: 40,
+			label: 'Civitas 2021 +6.4pp',
+			tooltip:
+				'Effective Academic Advising Strategies – Civitas Learning 2021 (55 universidades). El advising aumentó la retención en +6.36 puntos porcentuales en universidades de 4 años.',
+			link: 'https://www.civitaslearning.com/blog/effective-academic-advising-strategies/',
+			offsetY: 52
+		},
+		{
+			v: 47,
+			label: '⚠️ UNAL base 47%',
+			tooltip:
+				'Supuesto propio por encima del rango empírico documentado. Requiere validación mediante piloto en la UNAL.',
+			isWarn: true
+		}
+	];
+
+	function pos(v: number, min: number, max: number): number {
+		return ((v - min) / (max - min)) * 100;
+	}
+
 	let step1 = $derived(Math.round(BASE * (riskPool / 100) * (mlPrecision / 100)));
 	let step2 = $derived(Math.round(step1 * (acceptanceRate / 100)));
 	let step3 = $derived(Math.round(step2 * (successRate / 100) * 0.68));
@@ -141,33 +256,83 @@
 
 				<!-- Panel de sliders -->
 				<div class="sliders">
+					{#snippet markerLayer(markers: Marker[], min: number, max: number)}
+						<div class="markers">
+							{#each markers as m (m.v)}
+								{@const p = pos(m.v, min, max)}
+								<div
+									class="marker"
+									class:m-base={m.isBase}
+									class:m-warn={m.isWarn}
+									class:edge-left={p < 18}
+									class:edge-right={p > 82}
+									style="left: {p}%; --offset-y: {m.offsetY ?? 0}px"
+									tabindex="0"
+									role="button"
+									aria-label="{m.label}: {m.tooltip}"
+								>
+									<span class="tick" aria-hidden="true"></span>
+									<span class="m-stack">
+										<span class="arrow" aria-hidden="true">▲</span>
+										<span class="m-label">{m.label}</span>
+									</span>
+									<span class="m-tooltip" role="tooltip">
+										<span class="mt-body">{m.tooltip}</span>
+										{#if m.link}
+											<a
+												class="mt-link"
+												href={m.link}
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												→ Ver fuente
+											</a>
+										{/if}
+									</span>
+								</div>
+							{/each}
+						</div>
+					{/snippet}
+
 					<div class="srow">
 						<div class="slbl">
 							<span>Tasa de identificación ML</span>
 							<span class="sv">{riskPool}%</span>
 						</div>
-						<input type="range" min="10" max="90" step="5" bind:value={riskPool} />
+						<div class="track-wrap">
+							<input type="range" min="10" max="90" step="5" bind:value={riskPool} />
+							{@render markerLayer(MARKERS_S1, 10, 90)}
+						</div>
 					</div>
 					<div class="srow">
 						<div class="slbl">
 							<span>Precisión del modelo ML</span>
 							<span class="sv">{mlPrecision}%</span>
 						</div>
-						<input type="range" min="50" max="95" step="5" bind:value={mlPrecision} />
+						<div class="track-wrap">
+							<input type="range" min="50" max="95" step="5" bind:value={mlPrecision} />
+							{@render markerLayer(MARKERS_S2, 50, 95)}
+						</div>
 					</div>
 					<div class="srow">
 						<div class="slbl">
 							<span>Tasa de aceptación del apoyo</span>
 							<span class="sv">{acceptanceRate}%</span>
 						</div>
-						<input type="range" min="20" max="80" step="5" bind:value={acceptanceRate} />
+						<div class="track-wrap">
+							<input type="range" min="20" max="80" step="5" bind:value={acceptanceRate} />
+							{@render markerLayer(MARKERS_S3, 20, 80)}
+						</div>
 					</div>
 					<div class="srow">
 						<div class="slbl">
 							<span>Tasa de éxito de la intervención</span>
 							<span class="sv">{successRate}%</span>
 						</div>
-						<input type="range" min="20" max="70" step="5" bind:value={successRate} />
+						<div class="track-wrap">
+							<input type="range" min="20" max="70" step="5" bind:value={successRate} />
+							{@render markerLayer(MARKERS_S4, 20, 70)}
+						</div>
 					</div>
 				</div>
 			</div>
@@ -691,8 +856,8 @@
 	.sliders {
 		display: flex;
 		flex-direction: column;
-		gap: 1.6rem;
-		padding: 1.75rem;
+		gap: 2.25rem;
+		padding: 1.85rem 1.75rem 1.5rem;
 		background: rgba(255, 255, 255, 0.07);
 		border-radius: 1rem;
 		border: 1px solid rgba(255, 255, 255, 0.12);
@@ -702,6 +867,7 @@
 		display: flex;
 		flex-direction: column;
 		gap: 0.5rem;
+		min-height: 80px;
 	}
 
 	.slbl {
@@ -720,11 +886,199 @@
 		text-align: right;
 	}
 
+	.track-wrap {
+		position: relative;
+		padding-bottom: 16px;
+	}
+
 	input[type='range'] {
 		width: 100%;
 		accent-color: oklch(0.68 0.26 304);
 		cursor: pointer;
 		height: 5px;
+		display: block;
+	}
+
+	/* ── Capa de marcadores de referencia ────────────────────────── */
+	.markers {
+		position: absolute;
+		top: calc(100% - 4px);
+		left: 0;
+		right: 0;
+		height: 0;
+		pointer-events: none;
+	}
+
+	.marker {
+		position: absolute;
+		top: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		transform: translateX(-50%);
+		pointer-events: auto;
+		cursor: help;
+		outline: none;
+	}
+
+	.tick {
+		width: 1px;
+		height: 8px;
+		background: rgba(255, 255, 255, 0.45);
+		display: block;
+	}
+
+	.m-stack {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: var(--offset-y, 0px);
+		transition: margin-top 0.2s ease;
+	}
+
+	.arrow {
+		font-size: 6px;
+		line-height: 1;
+		color: rgba(255, 255, 255, 0.5);
+		margin-top: 1px;
+	}
+
+	.m-label {
+		font-size: 9.5px;
+		line-height: 1.25;
+		letter-spacing: 0.2px;
+		color: rgba(255, 255, 255, 0.62);
+		margin-top: 2px;
+		white-space: nowrap;
+		font-variant-numeric: tabular-nums;
+	}
+
+	.marker:hover .m-label,
+	.marker:focus-visible .m-label {
+		color: rgba(255, 255, 255, 0.92);
+	}
+
+	/* Variante: Modelo base UNAL */
+	.m-base .tick {
+		width: 2px;
+		height: 9px;
+		background: oklch(0.78 0.18 304);
+	}
+
+	.m-base .arrow {
+		color: oklch(0.78 0.18 304);
+		font-size: 7px;
+	}
+
+	.m-base .m-label {
+		color: oklch(0.86 0.16 304);
+		font-weight: 700;
+	}
+
+	/* Variante: Warning (amber) */
+	.m-warn .tick {
+		width: 2px;
+		height: 9px;
+		background: #f59e0b;
+	}
+
+	.m-warn .arrow {
+		color: #f59e0b;
+		font-size: 7px;
+	}
+
+	.m-warn .m-label {
+		color: #fbbf24;
+		font-weight: 700;
+	}
+
+	/* Foco accesible */
+	.marker:focus-visible {
+		outline: none;
+	}
+
+	.marker:focus-visible .m-stack {
+		outline: 1.5px solid oklch(0.78 0.18 304);
+		outline-offset: 3px;
+		border-radius: 3px;
+	}
+
+	/* ── Tooltip de marcador ─────────────────────────────────────── */
+	.m-tooltip {
+		position: absolute;
+		bottom: calc(100% + 6px);
+		left: 50%;
+		transform: translateX(-50%);
+		width: 220px;
+		max-width: 220px;
+		padding: 0.65rem 0.8rem;
+		background: #fff;
+		border-left: 3px solid #1e3a5f;
+		border-radius: 0.45rem;
+		box-shadow: 0 6px 22px rgba(0, 0, 0, 0.28);
+		font-size: 11px;
+		line-height: 1.5;
+		color: oklch(0.28 0.07 304);
+		text-align: left;
+		visibility: hidden;
+		opacity: 0;
+		transition:
+			opacity 0.18s ease,
+			visibility 0.18s ease;
+		pointer-events: none;
+		z-index: 30;
+	}
+
+	.marker:hover .m-tooltip,
+	.marker:focus-within .m-tooltip {
+		visibility: visible;
+		opacity: 1;
+		pointer-events: auto;
+	}
+
+	.marker.edge-left .m-tooltip {
+		left: 0;
+		transform: none;
+	}
+
+	.marker.edge-right .m-tooltip {
+		left: auto;
+		right: 0;
+		transform: none;
+	}
+
+	.mt-body {
+		display: block;
+	}
+
+	.m-base .m-tooltip {
+		border-left-color: oklch(0.55 0.22 304);
+	}
+
+	.m-base .mt-body {
+		color: oklch(0.5 0.04 304);
+		font-style: italic;
+	}
+
+	.m-warn .m-tooltip {
+		border-left-color: #f59e0b;
+	}
+
+	.m-warn .mt-body {
+		color: oklch(0.4 0.12 60);
+	}
+
+	.mt-link {
+		display: inline-block;
+		margin-top: 0.4rem;
+		font-size: 10px;
+		color: #1e3a5f;
+		text-decoration: underline;
+		font-weight: 600;
+	}
+
+	.mt-link:hover {
+		color: #0f1f3a;
 	}
 
 	/* Métricas */
