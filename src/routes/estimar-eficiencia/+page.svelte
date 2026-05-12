@@ -1,18 +1,53 @@
 <script lang="ts">
-	import { fade } from 'svelte/transition';
+	import { fade, slide } from 'svelte/transition';
 
 	let riskPool = $state(58);
 	let mlPrecision = $state(80);
 	let acceptanceRate = $state(60);
 	let successRate = $state(47);
+	let isExpanded = $state(false);
 
 	const BASE = 6240;
+
+	const SALARIO_PSICOLOGO = 4_817_000;
+	const SALARIO_TUTOR = 1_824_000;
+	const SALARIO_TRAB_SOCIAL = 3_200_000;
+	const LICENCIAS_MENSUAL = 1_926_000;
+	const LICENCIAS_ANUAL = 23_112_000;
+	const MANTENIMIENTO_MENSUAL = 2_857_000;
+	const MANTENIMIENTO_ANUAL = 34_284_000;
+	const OPEX_FIJO_ANUAL = LICENCIAS_ANUAL + MANTENIMIENTO_ANUAL;
+	const CAPEX_INGENIEROS = 24_000_000;
+	const CAPEX_ASESOR = 4_500_000;
+	const CAPEX_TOTAL = 38_778_000;
+
+	const URL_UNAL_REMUN = 'https://personal.manizales.unal.edu.co/fileadmin/user_upload/REMUNERACION-PLANTA-ADMINISTRATIVA-VIGENCIA-2020.pdf';
+	const URL_AUX_UNAL = 'https://1drv.ms/b/c/e020114ca07d2683/IQA3Kuj54veiT53xXB7suYNbAWEIxK4rmQbtgkA?e=rTDXHH';
+	const URL_FORMATO_AUX = 'https://drive.google.com/file/d/1EeXua7gSvT5Pp1MxtEBrGonKPyvtMCn0/view?usp=drive_link';
+	const URL_INDEED = 'https://co.indeed.com/career/trabajadora-social/salaries';
+	const URL_ORACLE = 'https://www.oracle.com/latam/cloud/pricing/';
+	const URL_UCC = 'https://repository.ucc.edu.co/server/api/core/bitstreams/bcb6ecca-4377-4cd9-918c-843fc396d8dd/content';
 
 	let step1 = $derived(Math.round(BASE * (riskPool / 100) * (mlPrecision / 100)));
 	let step2 = $derived(Math.round(step1 * (acceptanceRate / 100)));
 	let step3 = $derived(Math.round(step2 * (successRate / 100) * 0.68));
 	let savingsM = $derived(parseFloat((step3 * 19.5).toFixed(1)));
-	let costM = $derived(parseFloat((100 + step2 * 0.68 * 0.295).toFixed(1)));
+
+	let nPsicologos = $derived(Math.ceil((step2 * 0.20) / 100));
+	let nTutores = $derived(Math.ceil((step2 * 0.25) / 10));
+	let nTrabSoc = $derived(Math.ceil((step2 * 0.30) / 100));
+
+	let mensualPsicologos = $derived(nPsicologos * SALARIO_PSICOLOGO);
+	let mensualTutores = $derived(nTutores * SALARIO_TUTOR);
+	let mensualTrabSoc = $derived(nTrabSoc * SALARIO_TRAB_SOCIAL);
+	let anualPsicologos = $derived(mensualPsicologos * 12);
+	let anualTutores = $derived(mensualTutores * 12);
+	let anualTrabSoc = $derived(mensualTrabSoc * 12);
+
+	let costoVariableAnual = $derived(anualPsicologos + anualTutores + anualTrabSoc);
+	let costoTotalAnual = $derived(costoVariableAnual + OPEX_FIJO_ANUAL);
+
+	let costM = $derived(parseFloat((costoTotalAnual / 1_000_000).toFixed(1)));
 	let balanceM = $derived(parseFloat((savingsM - costM).toFixed(1)));
 
 	function fmt(n: number): string {
@@ -139,18 +174,188 @@
 
 			<!-- Métricas financieras -->
 			<div class="metrics">
-				<div class="metric mcost">
-					<span class="ml">Costo del sistema (anual)</span>
-					<span class="mv">{fmt(costM)} M COP</span>
-				</div>
 				<div class="metric msav">
 					<span class="ml">Pérdidas prevenidas (anual)</span>
 					<span class="mv">{fmt(savingsM)} M COP</span>
 				</div>
+				<div class="metric mcost">
+					<span class="ml">Costo del sistema (anual)</span>
+					<span class="mv">{fmt(costM)} M COP</span>
+				</div>
+				<div class="metric mbal" class:pos={balanceM >= 0} class:neg={balanceM < 0}>
+					<span class="ml">Balance neto</span>
+					<span class="mv">{fmt(balanceM)} M COP</span>
+				</div>
 			</div>
-			<p class="balance" class:pos={balanceM >= 0} class:neg={balanceM < 0}>
-				Balance neto: {fmt(balanceM)} millones COP/año
+
+			<p class="capex-note">
+				Inversión inicial (año 0): {fmt(CAPEX_TOTAL)} COP
 			</p>
+
+			<button class="expand-btn" onclick={() => (isExpanded = !isExpanded)}>
+				{isExpanded ? '▼ Ocultar desglose' : '▶️ Ver desglose detallado de costos'}
+			</button>
+
+			{#if isExpanded}
+				<div class="breakdown" transition:slide={{ duration: 280 }}>
+					<!-- ── Personal de Intervención ───────────── -->
+					<div class="sub sub-personal">
+						<h3 class="sub-title">Personal de Intervención</h3>
+
+						<!-- Psicólogos -->
+						<div class="row" style="--accent: #7C3AED">
+							<div class="row-head">
+								<span class="row-icon">🧠</span>
+								<div class="row-text">
+									<strong>Psicólogos de Bienestar</strong>
+									<span class="row-desc">1 psicólogo por cada 100 estudiantes · salud mental</span>
+								</div>
+								<div class="row-amounts">
+									<span class="amount-annual">{fmt(anualPsicologos)} COP/año</span>
+									<span class="amount-monthly">{fmt(nPsicologos)} × {fmt(SALARIO_PSICOLOGO)} COP/mes</span>
+								</div>
+							</div>
+							<a class="src-link" href={URL_UNAL_REMUN} target="_blank" rel="noopener noreferrer">
+								Remuneración planta UNAL 2020 →
+							</a>
+						</div>
+
+						<!-- Tutores Pares -->
+						<div class="row" style="--accent: #2563EB">
+							<div class="row-head">
+								<span class="row-icon">📚</span>
+								<div class="row-text">
+									<strong>Tutores Pares</strong>
+									<span class="row-desc">1 tutor por cada 10 estudiantes · 20h semanales · apoyo académico</span>
+								</div>
+								<div class="row-amounts">
+									<span class="amount-annual">{fmt(anualTutores)} COP/año</span>
+									<span class="amount-monthly">{fmt(nTutores)} × {fmt(SALARIO_TUTOR)} COP/mes</span>
+								</div>
+							</div>
+							<a class="src-link" href={URL_AUX_UNAL} target="_blank" rel="noopener noreferrer">
+								Convocatoria auxiliares UNAL 2025 →
+							</a>
+						</div>
+
+						<!-- Trabajadores Sociales -->
+						<div class="row" style="--accent: #059669">
+							<div class="row-head">
+								<span class="row-icon">🤝</span>
+								<div class="row-text">
+									<strong>Trabajadores Sociales</strong>
+									<span class="row-desc">1 trabajador social por cada 100 estudiantes · vulnerabilidad socioeconómica</span>
+								</div>
+								<div class="row-amounts">
+									<span class="amount-annual">{fmt(anualTrabSoc)} COP/año</span>
+									<span class="amount-monthly">
+										{fmt(nTrabSoc)} × {fmt(SALARIO_TRAB_SOCIAL)} COP/mes<span class="tooltip-wrap">
+											<span class="info-icon" tabindex="0" role="button" aria-label="¿Por qué 3.200.000 COP?">ⓘ</span>
+											<span class="tooltip-card" role="tooltip">
+												<strong class="tt-title">¿Por qué 3.200.000 COP?</strong>
+												El salario base promedio según Indeed Colombia es de 2.460.459 COP/mes. El valor usado en el modelo (3.200.000 COP) incluye prestaciones sociales obligatorias (~47%): cesantías, prima, vacaciones, salud, pensión y ARL. Costo real al empleador = salario base × 1,47.
+												<a class="tt-link" href={URL_INDEED} target="_blank" rel="noopener noreferrer">Ver referencia Indeed →</a>
+											</span>
+										</span>
+									</span>
+								</div>
+							</div>
+							<a class="src-link" href={URL_INDEED} target="_blank" rel="noopener noreferrer">
+								Salarios Indeed Colombia →
+							</a>
+						</div>
+					</div>
+
+					<!-- ── Costos Fijos del Sistema ───────────── -->
+					<div class="sub sub-fijos">
+						<h3 class="sub-title">Costos Fijos del Sistema</h3>
+
+						<!-- Ingenieros de Sistemas -->
+						<div class="row row-fixed">
+							<div class="row-head">
+								<span class="row-icon">💻</span>
+								<div class="row-text">
+									<strong>Ingenieros de Sistemas (×2)</strong>
+									<span class="row-desc">2 ingenieros · tiempo completo · 3 meses · desarrollo del modelo</span>
+									<span class="badge badge-once">Inversión única</span>
+								</div>
+								<div class="row-amounts">
+									<span class="amount-annual">{fmt(CAPEX_INGENIEROS)} COP</span>
+								</div>
+							</div>
+							<a class="src-link" href={URL_UNAL_REMUN} target="_blank" rel="noopener noreferrer">
+								Remuneración planta UNAL 2020 →
+							</a>
+						</div>
+
+						<!-- Asesor Especializado -->
+						<div class="row row-fixed">
+							<div class="row-head">
+								<span class="row-icon">🧑‍🏫</span>
+								<div class="row-text">
+									<strong>Asesor Especializado</strong>
+									<span class="row-desc">Psicólogo · medio tiempo · 3 meses · variables de riesgo</span>
+									<span class="badge badge-once">Inversión única</span>
+								</div>
+								<div class="row-amounts">
+									<span class="amount-annual">{fmt(CAPEX_ASESOR)} COP</span>
+									<span class="amount-monthly">incluida en CAPEX</span>
+								</div>
+							</div>
+							<a class="src-link" href={URL_FORMATO_AUX} target="_blank" rel="noopener noreferrer">
+								Formato auxiliares UNAL 2025 →
+							</a>
+						</div>
+
+						<!-- Licencias Tecnológicas -->
+						<div class="row row-fixed">
+							<div class="row-head">
+								<span class="row-icon">☁️</span>
+								<div class="row-text">
+									<strong>Licencias Tecnológicas</strong>
+									<span class="row-desc">Oracle ADF, Java EE, servicios en la nube</span>
+									<span class="badge badge-recurring">Costo recurrente</span>
+								</div>
+								<div class="row-amounts">
+									<span class="amount-annual">{fmt(LICENCIAS_ANUAL)} COP/año</span>
+									<span class="amount-monthly">{fmt(LICENCIAS_MENSUAL)} COP/mes</span>
+								</div>
+							</div>
+							<a class="src-link" href={URL_ORACLE} target="_blank" rel="noopener noreferrer">
+								Oracle Cloud Pricing LATAM →
+							</a>
+						</div>
+
+						<!-- Mantenimiento Técnico -->
+						<div class="row row-fixed">
+							<div class="row-head">
+								<span class="row-icon">🔧</span>
+								<div class="row-text">
+									<strong>Mantenimiento Técnico</strong>
+									<span class="row-desc">Ingeniero de soporte · medio tiempo · mantenimiento continuo</span>
+									<span class="badge badge-recurring">Costo recurrente</span>
+								</div>
+								<div class="row-amounts">
+									<span class="amount-annual">{fmt(MANTENIMIENTO_ANUAL)} COP/año</span>
+									<span class="amount-monthly">{fmt(MANTENIMIENTO_MENSUAL)} COP/mes</span>
+								</div>
+							</div>
+							<a class="src-link" href={URL_UCC} target="_blank" rel="noopener noreferrer">
+								Referencia salarial UCC →
+							</a>
+						</div>
+					</div>
+
+					<p class="footnote">
+						Fuentes:
+						<a href={URL_UNAL_REMUN} target="_blank" rel="noopener noreferrer">Remuneración UNAL Manizales 2020</a> ·
+						<a href={URL_AUX_UNAL} target="_blank" rel="noopener noreferrer">Convocatoria auxiliares UNAL 2025</a> ·
+						<a href={URL_ORACLE} target="_blank" rel="noopener noreferrer">Oracle Cloud Pricing</a> ·
+						<a href={URL_INDEED} target="_blank" rel="noopener noreferrer">Indeed Colombia</a> ·
+						SPADIES 2023
+					</p>
+				</div>
+			{/if}
 		</div>
 	</section>
 
@@ -525,12 +730,12 @@
 	/* Métricas */
 	.metrics {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
 		gap: 1rem;
-		margin-bottom: 1.25rem;
+		margin-bottom: 0.6rem;
 	}
 
-	@media (max-width: 480px) {
+	@media (max-width: 680px) {
 		.metrics {
 			grid-template-columns: 1fr;
 		}
@@ -577,24 +782,303 @@
 		color: oklch(0.88 0.18 304);
 	}
 
-	.balance {
-		font-family: 'Sekuya', serif;
-		font-size: clamp(1.1rem, 2.8vw, 1.65rem);
-		letter-spacing: 2px;
-		text-align: center;
-		padding: 1rem 1.5rem;
-		border-radius: 0.75rem;
-		background: rgba(255, 255, 255, 0.07);
-		margin: 0;
-		transition: color 0.3s ease;
+	.mbal {
+		background: rgba(255, 255, 255, 0.08);
+		border: 1px solid rgba(255, 255, 255, 0.2);
 	}
 
-	.balance.pos {
+	.mbal.pos .mv {
 		color: oklch(0.88 0.18 304);
 	}
 
-	.balance.neg {
+	.mbal.neg .mv {
 		color: oklch(0.82 0.1 5);
+	}
+
+	/* ── Nota CAPEX ──────────────────────────────────────────────── */
+	.capex-note {
+		text-align: center;
+		font-size: 0.76rem;
+		color: rgba(255, 255, 255, 0.55);
+		margin: 0 0 1.4rem 0;
+		letter-spacing: 0.5px;
+	}
+
+	/* ── Botón colapsable ────────────────────────────────────────── */
+	.expand-btn {
+		width: 100%;
+		padding: 0.78rem 1rem;
+		background: transparent;
+		color: #fff;
+		border: 1px solid oklch(0.7 0.18 304);
+		border-radius: 0.6rem;
+		font-family: inherit;
+		font-size: 0.88rem;
+		font-weight: 600;
+		letter-spacing: 0.6px;
+		cursor: pointer;
+		transition:
+			background 0.2s,
+			border-color 0.2s,
+			transform 0.15s;
+	}
+
+	.expand-btn:hover {
+		background: oklch(0.58 0.26 304 / 0.18);
+		border-color: oklch(0.78 0.22 304);
+	}
+
+	.expand-btn:active {
+		transform: translateY(1px);
+	}
+
+	/* ── Card de desglose ────────────────────────────────────────── */
+	.breakdown {
+		margin-top: 1.1rem;
+		background: rgba(255, 255, 255, 0.97);
+		color: oklch(0.28 0.07 304);
+		border-radius: 1rem;
+		padding: 1.6rem 1.4rem;
+	}
+
+	.sub {
+		padding-left: 0.95rem;
+		margin-bottom: 1.6rem;
+	}
+
+	.sub:last-of-type {
+		margin-bottom: 0.4rem;
+	}
+
+	.sub-personal {
+		border-left: 4px solid oklch(0.58 0.26 304);
+	}
+
+	.sub-fijos {
+		border-left: 4px solid oklch(0.78 0.015 304);
+	}
+
+	.sub-title {
+		font-size: 0.88rem;
+		text-transform: uppercase;
+		letter-spacing: 1.5px;
+		color: oklch(0.32 0.18 304);
+		margin: 0 0 0.85rem 0;
+	}
+
+	.sub-fijos .sub-title {
+		color: oklch(0.45 0.04 304);
+	}
+
+	.row {
+		padding: 0.9rem 0.95rem;
+		border-radius: 0.55rem;
+		background: oklch(0.98 0.012 304);
+		margin-bottom: 0.6rem;
+		border-left: 3px solid var(--accent, oklch(0.78 0.015 304));
+	}
+
+	.row-head {
+		display: grid;
+		grid-template-columns: auto 1fr auto;
+		gap: 0.85rem;
+		align-items: start;
+	}
+
+	@media (max-width: 580px) {
+		.row-head {
+			grid-template-columns: auto 1fr;
+		}
+		.row-amounts {
+			grid-column: 1 / -1;
+			align-items: flex-start !important;
+			text-align: left !important;
+			margin-top: 0.4rem;
+		}
+	}
+
+	.row-icon {
+		font-size: 1.3rem;
+		line-height: 1.2;
+	}
+
+	.row-text {
+		display: flex;
+		flex-direction: column;
+		gap: 0.2rem;
+	}
+
+	.row-text strong {
+		font-size: 0.94rem;
+		color: oklch(0.22 0.18 304);
+		font-weight: 700;
+	}
+
+	.row-desc {
+		font-size: 0.76rem;
+		color: oklch(0.48 0.05 304);
+		line-height: 1.45;
+	}
+
+	.row-amounts {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		gap: 0.15rem;
+		text-align: right;
+		white-space: nowrap;
+	}
+
+	.amount-annual {
+		font-family: 'Sekuya', serif;
+		font-size: 0.95rem;
+		letter-spacing: 1px;
+		color: var(--accent, oklch(0.35 0.22 304));
+	}
+
+	.row-fixed .amount-annual {
+		color: oklch(0.32 0.18 304);
+	}
+
+	.amount-monthly {
+		font-size: 0.74rem;
+		color: oklch(0.5 0.05 304);
+	}
+
+	.src-link {
+		display: inline-block;
+		margin-top: 0.55rem;
+		font-size: 0.72rem;
+		color: oklch(0.42 0.22 304);
+		text-decoration: none;
+		border-bottom: 1px dashed oklch(0.42 0.22 304 / 0.45);
+		transition:
+			color 0.18s,
+			border-color 0.18s;
+	}
+
+	.src-link:hover {
+		color: oklch(0.32 0.22 304);
+		border-bottom-color: oklch(0.32 0.22 304);
+	}
+
+	/* Badges */
+	.badge {
+		display: inline-block;
+		margin-top: 0.35rem;
+		padding: 0.18rem 0.6rem;
+		border-radius: 9999px;
+		font-size: 0.62rem;
+		font-weight: 700;
+		letter-spacing: 0.5px;
+		text-transform: uppercase;
+		width: max-content;
+	}
+
+	.badge-once {
+		background: oklch(0.93 0.1 65);
+		color: oklch(0.42 0.16 50);
+	}
+
+	.badge-recurring {
+		background: oklch(0.93 0.07 240);
+		color: oklch(0.42 0.18 250);
+	}
+
+	/* Tooltip */
+	.tooltip-wrap {
+		position: relative;
+		display: inline-block;
+		margin-left: 4px;
+		white-space: normal;
+	}
+
+	.info-icon {
+		display: inline-block;
+		color: oklch(0.55 0 0);
+		font-size: 12px;
+		line-height: 1;
+		cursor: pointer;
+		user-select: none;
+		vertical-align: middle;
+	}
+
+	.info-icon:focus {
+		outline: 1.5px solid oklch(0.55 0.18 304);
+		outline-offset: 2px;
+		border-radius: 50%;
+	}
+
+	.tooltip-card {
+		position: absolute;
+		right: 0;
+		top: calc(100% + 0.5rem);
+		width: 240px;
+		max-width: 240px;
+		padding: 0.7rem 0.85rem;
+		background: #fff;
+		color: oklch(0.28 0.07 304);
+		border-left: 3px solid oklch(0.32 0.18 304);
+		border-radius: 0.5rem;
+		box-shadow: 0 4px 18px rgba(0, 0, 0, 0.18);
+		font-size: 11px;
+		line-height: 1.55;
+		text-align: left;
+		visibility: hidden;
+		opacity: 0;
+		transition:
+			opacity 0.18s ease,
+			visibility 0.18s ease;
+		z-index: 10;
+		pointer-events: none;
+	}
+
+	.tooltip-wrap:hover .tooltip-card,
+	.tooltip-wrap:focus-within .tooltip-card {
+		visibility: visible;
+		opacity: 1;
+		pointer-events: auto;
+	}
+
+	.tt-title {
+		display: block;
+		font-size: 11px;
+		color: oklch(0.22 0.18 304);
+		margin-bottom: 0.35rem;
+		font-weight: 700;
+	}
+
+	.tt-link {
+		display: block;
+		margin-top: 0.45rem;
+		font-size: 10px;
+		color: oklch(0.32 0.18 304);
+		text-decoration: underline;
+	}
+
+	.tt-link:hover {
+		color: oklch(0.22 0.18 304);
+	}
+
+	/* Footnote */
+	.footnote {
+		margin: 1rem 0 0 0;
+		padding-top: 0.85rem;
+		border-top: 1px solid oklch(0.93 0.02 304);
+		font-size: 0.72rem;
+		line-height: 1.7;
+		color: oklch(0.5 0.05 304);
+		text-align: center;
+	}
+
+	.footnote a {
+		font-size: 10px;
+		color: oklch(0.32 0.18 304);
+		text-decoration: underline;
+	}
+
+	.footnote a:hover {
+		color: oklch(0.22 0.18 304);
 	}
 
 	/* ── POR QUÉ FUNCIONA ────────────────────────────────────────── */
