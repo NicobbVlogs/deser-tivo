@@ -21,7 +21,12 @@
       "Bash(bun install *)",
       "Bash(xargs ls *)",
       "Bash(git add *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(npm run *)",
+      "PowerShell(Get-ChildItem *)",
+      "Bash(git commit *)",
+      "PowerShell(bun run *)"
     ]
   }
 }
