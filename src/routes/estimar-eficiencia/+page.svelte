@@ -880,7 +880,7 @@
 
 	.track-wrap {
 		position: relative;
-		padding-bottom: 44px;
+		padding-bottom: 38px;
 		flex: 1;
 		min-width: 0;
 	}
@@ -898,7 +898,7 @@
 	/* ── Capa de marcadores de referencia ────────────────────────── */
 	.markers {
 		position: absolute;
-		top: calc(100% + 6px);
+		top: 8px;
 		left: 0;
 		right: 0;
 		height: 0;
@@ -985,7 +985,7 @@
 	/* ── Tooltip de marcador ─────────────────────────────────────── */
 	.m-tooltip {
 		position: absolute;
-		bottom: calc(100% + 72px);
+		bottom: calc(100% + 14px);
 		left: 50%;
 		transform: translateX(-50%);
 		width: 220px;
