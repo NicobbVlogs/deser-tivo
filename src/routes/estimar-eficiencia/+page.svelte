@@ -4,7 +4,7 @@
 	let riskPool = $state(58);
 	let mlPrecision = $state(80);
 	let acceptanceRate = $state(60);
-	let successRate = $state(47);
+	let successRate = $state(39);
 	let isExpanded = $state(false);
 
 	const BASE = 6240;
@@ -34,7 +34,6 @@
 		tooltip: string;
 		link?: string;
 		isBase?: boolean;
-		isWarn?: boolean;
 	};
 
 	const MARKERS_S1: Marker[] = [
@@ -122,11 +121,10 @@
 			link: 'https://www.civitaslearning.com/blog/effective-academic-advising-strategies/'
 		},
 		{
-			v: 47,
-			tag: 'UNAL base ⚠',
-			tooltip:
-				'Supuesto propio por encima del rango empírico documentado. Requiere validación mediante piloto en la UNAL.',
-			isWarn: true
+			v: 39,
+			tag: 'UNAL base',
+			tooltip: 'Supuesto propio — pendiente de validación piloto en la UNAL.',
+			isBase: true
 		}
 	];
 
@@ -254,7 +252,6 @@
 								<div
 									class="marker"
 									class:m-base={m.isBase}
-									class:m-warn={m.isWarn}
 									class:edge-left={p < 18}
 									class:edge-right={p > 82}
 									style="left: {p}%"
@@ -291,7 +288,7 @@
 							<span class="sv">{riskPool}%</span>
 						</div>
 						<div class="track-wrap">
-							<input type="range" min="10" max="90" step="5" bind:value={riskPool} />
+							<input type="range" min="10" max="90" step="1" bind:value={riskPool} />
 							{@render markerLayer(MARKERS_S1, 10, 90)}
 						</div>
 					</div>
@@ -301,7 +298,7 @@
 							<span class="sv">{mlPrecision}%</span>
 						</div>
 						<div class="track-wrap">
-							<input type="range" min="50" max="95" step="5" bind:value={mlPrecision} />
+							<input type="range" min="50" max="95" step="1" bind:value={mlPrecision} />
 							{@render markerLayer(MARKERS_S2, 50, 95)}
 						</div>
 					</div>
@@ -311,7 +308,7 @@
 							<span class="sv">{acceptanceRate}%</span>
 						</div>
 						<div class="track-wrap">
-							<input type="range" min="20" max="80" step="5" bind:value={acceptanceRate} />
+							<input type="range" min="20" max="80" step="1" bind:value={acceptanceRate} />
 							{@render markerLayer(MARKERS_S3, 20, 80)}
 						</div>
 					</div>
@@ -321,7 +318,7 @@
 							<span class="sv">{successRate}%</span>
 						</div>
 						<div class="track-wrap">
-							<input type="range" min="20" max="70" step="5" bind:value={successRate} />
+							<input type="range" min="20" max="70" step="1" bind:value={successRate} />
 							{@render markerLayer(MARKERS_S4, 20, 70)}
 						</div>
 					</div>
@@ -857,7 +854,7 @@
 	.srow {
 		display: flex;
 		flex-direction: column;
-		gap: 0.5rem;
+		gap: 0.15rem;
 		min-height: 80px;
 	}
 
@@ -972,23 +969,6 @@
 		font-weight: 600;
 	}
 
-	/* Variante: Warning (amber) */
-	.m-warn .tick {
-		width: 2px;
-		height: 9px;
-		background: #f59e0b;
-	}
-
-	.m-warn .m-val {
-		color: #fbbf24;
-		font-size: 10.5px;
-	}
-
-	.m-warn .m-tag {
-		color: #fcd34d;
-		font-weight: 600;
-	}
-
 	/* Foco accesible */
 	.marker:focus-visible .m-content {
 		outline: 1.5px solid oklch(0.78 0.18 304);
@@ -1051,14 +1031,6 @@
 	.m-base .mt-body {
 		color: oklch(0.5 0.04 304);
 		font-style: italic;
-	}
-
-	.m-warn .m-tooltip {
-		border-left-color: #f59e0b;
-	}
-
-	.m-warn .mt-body {
-		color: oklch(0.4 0.12 60);
 	}
 
 	.mt-link {
