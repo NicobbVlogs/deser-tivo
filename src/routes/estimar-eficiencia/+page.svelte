@@ -316,8 +316,8 @@
 						<span class="slbl">Tasa de éxito de la intervención</span>
 						<div class="track-row">
 							<div class="track-wrap">
-								<input type="range" min="20" max="80" step="1" bind:value={successRate} />
-								{@render markerLayer(MARKERS_S4, 20, 80)}
+								<input type="range" min="30" max="50" step="1" bind:value={successRate} />
+								{@render markerLayer(MARKERS_S4, 30, 50)}
 							</div>
 							<span class="sv">{successRate}%</span>
 						</div>
@@ -865,7 +865,7 @@
 	.track-row {
 		display: flex;
 		align-items: center;
-		gap: 1rem;
+		gap: 0.4rem;
 	}
 
 	.sv {
@@ -985,7 +985,7 @@
 	/* ── Tooltip de marcador ─────────────────────────────────────── */
 	.m-tooltip {
 		position: absolute;
-		bottom: calc(100% + 6px);
+		bottom: calc(100% + 72px);
 		left: 50%;
 		transform: translateX(-50%);
 		width: 220px;
