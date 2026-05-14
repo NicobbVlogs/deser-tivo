@@ -283,43 +283,43 @@
 					{/snippet}
 
 					<div class="srow">
-						<div class="slbl">
-							<span>Tasa de identificación ML</span>
+						<span class="slbl">Tasa de identificación ML</span>
+						<div class="track-row">
+							<div class="track-wrap">
+								<input type="range" min="10" max="90" step="1" bind:value={riskPool} />
+								{@render markerLayer(MARKERS_S1, 10, 90)}
+							</div>
 							<span class="sv">{riskPool}%</span>
 						</div>
-						<div class="track-wrap">
-							<input type="range" min="10" max="90" step="1" bind:value={riskPool} />
-							{@render markerLayer(MARKERS_S1, 10, 90)}
-						</div>
 					</div>
 					<div class="srow">
-						<div class="slbl">
-							<span>Precisión del modelo ML</span>
+						<span class="slbl">Precisión del modelo ML</span>
+						<div class="track-row">
+							<div class="track-wrap">
+								<input type="range" min="50" max="95" step="1" bind:value={mlPrecision} />
+								{@render markerLayer(MARKERS_S2, 50, 95)}
+							</div>
 							<span class="sv">{mlPrecision}%</span>
 						</div>
-						<div class="track-wrap">
-							<input type="range" min="50" max="95" step="1" bind:value={mlPrecision} />
-							{@render markerLayer(MARKERS_S2, 50, 95)}
-						</div>
 					</div>
 					<div class="srow">
-						<div class="slbl">
-							<span>Tasa de aceptación del apoyo</span>
+						<span class="slbl">Tasa de aceptación del apoyo</span>
+						<div class="track-row">
+							<div class="track-wrap">
+								<input type="range" min="20" max="80" step="1" bind:value={acceptanceRate} />
+								{@render markerLayer(MARKERS_S3, 20, 80)}
+							</div>
 							<span class="sv">{acceptanceRate}%</span>
 						</div>
-						<div class="track-wrap">
-							<input type="range" min="20" max="80" step="1" bind:value={acceptanceRate} />
-							{@render markerLayer(MARKERS_S3, 20, 80)}
-						</div>
 					</div>
 					<div class="srow">
-						<div class="slbl">
-							<span>Tasa de éxito de la intervención</span>
+						<span class="slbl">Tasa de éxito de la intervención</span>
+						<div class="track-row">
+							<div class="track-wrap">
+								<input type="range" min="20" max="80" step="1" bind:value={successRate} />
+								{@render markerLayer(MARKERS_S4, 20, 80)}
+							</div>
 							<span class="sv">{successRate}%</span>
-						</div>
-						<div class="track-wrap">
-							<input type="range" min="20" max="70" step="1" bind:value={successRate} />
-							{@render markerLayer(MARKERS_S4, 20, 70)}
 						</div>
 					</div>
 				</div>
@@ -854,15 +854,18 @@
 	.srow {
 		display: flex;
 		flex-direction: column;
-		gap: 0.15rem;
+		gap: 0.3rem;
 		min-height: 80px;
 	}
 
 	.slbl {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
 		font-size: 0.88rem;
+	}
+
+	.track-row {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
 	}
 
 	.sv {
@@ -872,11 +875,14 @@
 		color: oklch(0.84 0.2 304);
 		min-width: 3rem;
 		text-align: right;
+		flex-shrink: 0;
 	}
 
 	.track-wrap {
 		position: relative;
 		padding-bottom: 44px;
+		flex: 1;
+		min-width: 0;
 	}
 
 	input[type='range'] {
